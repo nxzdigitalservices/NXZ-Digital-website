@@ -1,20 +1,19 @@
 import React from 'react';
-import { ShieldCheck, Phone, Mail, MapPin, Lock } from 'lucide-react';
-import { useProperties } from '../context/PropertyContext';
+import { ShieldCheck, MessageSquare } from 'lucide-react';
 
 export const Footer: React.FC = () => {
-  const { setIsAdminPortalOpen, isAdmin } = useProperties();
-
   return (
     <footer className="w-full bg-neutral-950 text-neutral-400 border-t border-neutral-800 text-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Brand & Trust */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-neutral-800 text-amber-400 flex items-center justify-center font-bold text-sm tracking-wider">
-                NXZ
-              </div>
+            <div className="flex items-center gap-3">
+              <img
+                src="/assets/aistudio/NXZ_logo_main_text_25a21177.jpeg"
+                alt="NXZ Digital Logo"
+                className="h-8 w-auto object-contain rounded-md bg-white px-1.5 py-1"
+              />
               <span className="font-display font-extrabold text-base tracking-tight text-white">
                 HYDERABAD <span className="text-amber-500 font-semibold">REAL ESTATE</span>
               </span>
@@ -49,11 +48,6 @@ export const Footer: React.FC = () => {
                   FAQs & Buying Guide
                 </a>
               </li>
-              <li>
-                <a href="#contact" className="hover:text-white transition-colors">
-                  Contact Desk
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -76,18 +70,16 @@ export const Footer: React.FC = () => {
             <h4 className="font-bold uppercase tracking-wider text-neutral-300 text-[11px]">
               Advisory Desk
             </h4>
-            <div className="space-y-2 text-neutral-400">
-              <div>
-                <a href="tel:+919603155571" className="hover:text-white transition-colors font-medium text-white block">
-                  +91 96031 55571
-                </a>
-                <span className="text-[10px] text-neutral-500">Mon – Sun: 9AM – 8PM</span>
-              </div>
-              <div>
-                <a href="mailto:service@nxzdigital.com" className="hover:text-white transition-colors block">
-                  service@nxzdigital.com
-                </a>
-              </div>
+            <div className="space-y-3 text-neutral-400">
+              <a
+                href="https://wa.me/919603155571?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20luxury%20properties%20in%20Hyderabad."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition-colors"
+              >
+                <MessageSquare className="w-4 h-4" />
+                <span>Chat on WhatsApp</span>
+              </a>
               <div className="text-[11px] text-neutral-500">
                 Neopolis Boulevard, Kokapet, Hyderabad
               </div>
@@ -104,15 +96,6 @@ export const Footer: React.FC = () => {
             <div className="text-neutral-400">
               © {new Date().getFullYear()} Hyderabad Real Estate & NXZ Digital. All rights reserved.
             </div>
-
-            {/* Owner Portal Discreet Link */}
-            <button
-              onClick={() => setIsAdminPortalOpen(true)}
-              className="inline-flex items-center gap-1.5 text-neutral-400 hover:text-neutral-400 transition-colors text-[11px] cursor-pointer"
-            >
-              <Lock className="w-3 h-3" />
-              <span>{isAdmin ? 'Owner Portal Active' : 'Owner Project Management'}</span>
-            </button>
           </div>
         </div>
       </div>

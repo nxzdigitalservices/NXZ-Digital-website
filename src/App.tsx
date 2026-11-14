@@ -6,22 +6,15 @@ import { SearchFilterBar } from './components/SearchFilterBar';
 import { PropertyCard } from './components/PropertyCard';
 import { EMICalculator } from './components/EMICalculator';
 import { FAQSection } from './components/FAQSection';
-import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { ProjectDetailPage } from './components/ProjectDetailPage';
 import { CompareModal } from './components/CompareModal';
-import { EnquiryModal } from './components/EnquiryModal';
-import { AdminPortalModal } from './components/AdminPortalModal';
 import { MobileQuickBar } from './components/MobileQuickBar';
 import { FilterState, Property } from './types/property';
 import { Building2, RotateCcw } from 'lucide-react';
 
 const MainAppContent: React.FC = () => {
-  const {
-    properties,
-    isAdminPortalOpen,
-    setIsAdminPortalOpen,
-  } = useProperties();
+  const { properties } = useProperties();
 
   // URL Path Routing State
   const [currentSlug, setCurrentSlug] = useState<string>(() => {
@@ -53,8 +46,10 @@ const MainAppContent: React.FC = () => {
   // Check if current URL matches any project slug
   const activeProject = useMemo(() => {
     if (!currentSlug) return null;
+    const normalized = currentSlug.toLowerCase();
+    const targetSlug = normalized === 'godrej-brooklyn-heights' ? 'godrej-brooklyn-avenue' : normalized;
     return properties.find(
-      (p) => p.slug.toLowerCase() === currentSlug.toLowerCase() || p.id.toLowerCase() === currentSlug.toLowerCase()
+      (p) => p.slug.toLowerCase() === targetSlug || p.id.toLowerCase() === targetSlug
     ) || null;
   }, [currentSlug, properties]);
 
@@ -162,11 +157,6 @@ const MainAppContent: React.FC = () => {
 
         <Footer />
         <CompareModal />
-        <EnquiryModal />
-        <AdminPortalModal
-          isOpen={isAdminPortalOpen}
-          onClose={() => setIsAdminPortalOpen(false)}
-        />
         <MobileQuickBar />
       </div>
     );
@@ -253,19 +243,11 @@ const MainAppContent: React.FC = () => {
       {/* Scraped Frequently Asked Questions */}
       <FAQSection />
 
-      {/* Contact & Private Site Tour Inquiry */}
-      <ContactSection />
-
       {/* Legal & Compliance Footer */}
       <Footer />
 
       {/* Modals & Overlays */}
       <CompareModal />
-      <EnquiryModal />
-      <AdminPortalModal
-        isOpen={isAdminPortalOpen}
-        onClose={() => setIsAdminPortalOpen(false)}
-      />
 
       {/* Mobile Sticky Quick Navigation */}
       <MobileQuickBar />

@@ -37,6 +37,7 @@ export const INITIAL_PROPERTIES: Property[] = NXZ_PROJECTS.map((p: NXZProject) =
   carpetAreaRange: p.carpetAreaRange,
   planDiagrams: p.planDiagrams,
   driveDocuments: p.driveDocuments,
+  pricingNotes: p.pricingNotes,
   keySpecs: [
     { label: 'Project Status', value: p.statusBadge },
     { label: 'Configurations', value: p.configurations.join(', ') },

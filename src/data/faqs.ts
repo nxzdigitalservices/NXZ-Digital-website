@@ -37,6 +37,6 @@ export const FAQS_DATA: FAQItem[] = [
   {
     question: 'How can I schedule a private site visit or receive official brochures?',
     answer:
-      'You can request an exclusive site inspection or receive official high-resolution brochures, sanctioned master plans, and floor-level unit pricing sheets directly through our website enquiry form, by calling +91 96031 55571, or by sending a direct WhatsApp message to our dedicated client advisory desk.',
+      'You can request an exclusive site inspection or receive official high-resolution brochures, sanctioned master plans, and floor-level unit pricing sheets by sending a direct WhatsApp message via our Chat on WhatsApp button to our dedicated client advisory desk.',
   },
 ];

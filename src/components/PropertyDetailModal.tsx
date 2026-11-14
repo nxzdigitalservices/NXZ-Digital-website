@@ -6,7 +6,6 @@ import {
   ShieldCheck,
   Calendar,
   CheckCircle2,
-  Phone,
   MessageSquare,
   FileText,
   ChevronRight,
@@ -17,7 +16,6 @@ import {
   ExternalLink,
 } from 'lucide-react';
 import { Property, FloorPlan } from '../types/property';
-import { useProperties } from '../context/PropertyContext';
 
 interface PropertyDetailModalProps {
   property: Property | null;
@@ -25,7 +23,6 @@ interface PropertyDetailModalProps {
 }
 
 export const PropertyDetailModal: React.FC<PropertyDetailModalProps> = ({ property, onClose }) => {
-  const { openEnquiryModal } = useProperties();
   const [activeTab, setActiveTab] = useState<'overview' | 'floorplans' | 'pricing' | 'amenities' | 'specs'>('overview');
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [selectedFloorPlanId, setSelectedFloorPlanId] = useState<string>('');
@@ -308,36 +305,6 @@ export const PropertyDetailModal: React.FC<PropertyDetailModalProps> = ({ proper
                       </tbody>
                     </table>
                   </div>
-
-                  {/* Floor Plan Images if available */}
-                  {property.planDiagrams && property.planDiagrams.length > 0 && (
-                    <div className="pt-2">
-                      <span className="text-xs font-bold text-neutral-800 uppercase tracking-wider block mb-2">
-                        Official Floor & Master Plan Layouts
-                      </span>
-                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                        {property.planDiagrams.map((diag, idx) => (
-                          <a
-                            key={idx}
-                            href={diag}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="group relative aspect-4/3 rounded-xl overflow-hidden border border-neutral-200 bg-neutral-50 p-2 hover:border-amber-400 transition-all flex items-center justify-center"
-                          >
-                            <img
-                              src={diag}
-                              alt={`${property.name} Layout ${idx + 1}`}
-                              referrerPolicy="no-referrer"
-                              className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
-                            />
-                            <div className="absolute inset-0 bg-neutral-900/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-[11px] font-bold">
-                              <span>Enlarge Plan</span>
-                            </div>
-                          </a>
-                        ))}
-                      </div>
-                    </div>
-                  )}
                 </div>
               ) : currentPlan ? (
                 <>
@@ -614,29 +581,11 @@ export const PropertyDetailModal: React.FC<PropertyDetailModalProps> = ({ proper
               href={`https://wa.me/919603155571?text=${whatsappMessage}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg transition-colors flex items-center gap-1.5 shadow-xs"
+              className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg transition-colors flex items-center gap-2 shadow-xs"
             >
               <MessageSquare className="w-4 h-4" />
-              <span>WhatsApp Advisor</span>
+              <span>Chat on WhatsApp</span>
             </a>
-
-            <a
-              href="tel:+919603155571"
-              className="px-4 py-2 bg-neutral-200 hover:bg-neutral-300 text-neutral-800 text-xs font-bold rounded-lg transition-colors flex items-center gap-1.5"
-            >
-              <Phone className="w-3.5 h-3.5" />
-              <span>Call +91 96031 55571</span>
-            </a>
-
-            <button
-              onClick={() => {
-                onClose();
-                openEnquiryModal(property);
-              }}
-              className="px-5 py-2 bg-neutral-900 hover:bg-neutral-800 text-white text-xs font-bold rounded-lg transition-colors shadow-xs cursor-pointer"
-            >
-              Book Site Inspection
-            </button>
           </div>
         </div>
       </div>

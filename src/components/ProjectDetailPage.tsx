@@ -2,28 +2,19 @@ import React, { useState, useEffect } from 'react';
 import {
   ArrowLeft,
   MapPin,
-  Building,
   ShieldCheck,
-  Calendar,
   CheckCircle2,
-  Phone,
   MessageSquare,
   Share2,
   Check,
   ChevronLeft,
   ChevronRight,
-  Maximize2,
   Sparkles,
   Compass,
   Clock,
   Layers,
-  Send,
   ExternalLink,
   FileText,
-  Download,
-  Eye,
-  Tag,
-  X,
 } from 'lucide-react';
 import { Property } from '../types/property';
 import { useProperties } from '../context/PropertyContext';
@@ -39,24 +30,14 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
   onBackToHome,
   onNavigateToProject,
 }) => {
-  const { properties, addInquiry, openEnquiryModal } = useProperties();
+  const { properties } = useProperties();
   const [activeImageIdx, setActiveImageIdx] = useState(0);
   const [copiedLink, setCopiedLink] = useState(false);
-  const [selectedPlanImage, setSelectedPlanImage] = useState<string | null>(null);
-
-  // Form state
-  const [fullName, setFullName] = useState('');
-  const [mobileNumber, setMobileNumber] = useState('');
-  const [emailAddress, setEmailAddress] = useState('');
-  const [enquiryType, setEnquiryType] = useState<'Site Visit' | 'Price Sheet' | 'Brochure'>('Site Visit');
-  const [message, setMessage] = useState('');
-  const [formSubmitted, setFormSubmitted] = useState(false);
 
   // Scroll to top on mount or project change
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveImageIdx(0);
-    setFormSubmitted(false);
   }, [project.slug]);
 
   const images = project.gallery && project.gallery.length > 0 ? project.gallery : [project.image];
@@ -73,23 +54,6 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
       setCopiedLink(true);
       setTimeout(() => setCopiedLink(false), 2000);
     }
-  };
-
-  const handleQuickInquiry = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!fullName || !mobileNumber) return;
-
-    addInquiry({
-      fullName,
-      mobileNumber,
-      emailAddress: emailAddress || 'Not provided',
-      enquiryType,
-      propertyId: project.id,
-      propertyName: project.name,
-      message,
-    });
-
-    setFormSubmitted(true);
   };
 
   const whatsappMessage = encodeURIComponent(
@@ -324,13 +288,15 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
                     Verified unit configurations, super built-up dimensions, carpet areas, and pricing as published on nxzdigital.com
                   </p>
                 </div>
-                <button
-                  onClick={() => openEnquiryModal(project)}
-                  className="inline-flex items-center gap-1.5 px-4 py-2 bg-neutral-900 hover:bg-neutral-800 text-white text-xs font-bold rounded-lg transition-colors cursor-pointer shrink-0 self-start sm:self-auto"
+                <a
+                  href={`https://wa.me/919603155571?text=${encodeURIComponent(`Hello, please share the price sheet & floor plans for ${project.name} (${project.location}).`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg transition-colors shrink-0 self-start sm:self-auto"
                 >
-                  <Download className="w-3.5 h-3.5 text-amber-400" />
-                  <span>Download Price Sheet</span>
-                </button>
+                  <MessageSquare className="w-3.5 h-3.5" />
+                  <span>Get Price Sheet on WhatsApp</span>
+                </a>
               </div>
 
               {/* Pricing & Area Highlights Strip */}
@@ -397,12 +363,15 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
                             {row.price}
                           </td>
                           <td className="py-3.5 px-4 text-center">
-                            <button
-                              onClick={() => openEnquiryModal(project)}
-                              className="px-2.5 py-1 text-[11px] font-bold rounded-md bg-neutral-100 hover:bg-amber-100 hover:text-amber-900 text-neutral-700 transition-colors cursor-pointer"
+                            <a
+                              href={`https://wa.me/919603155571?text=${encodeURIComponent(`Hello, I am interested in ${project.name} - ${row.configuration} (${row.size}). Please share unit availability and pricing details.`)}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-bold rounded-md bg-emerald-50 hover:bg-emerald-600 hover:text-white text-emerald-700 transition-colors"
                             >
-                              Enquire
-                            </button>
+                              <MessageSquare className="w-3 h-3" />
+                              <span>WhatsApp</span>
+                            </a>
                           </td>
                         </tr>
                       ))}
@@ -418,6 +387,30 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
                   <div className="flex justify-between text-neutral-600">
                     <span>Sizes:</span>
                     <span>{project.areaRange}</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Pricing Breakdown, EOI Terms & Additional Charges */}
+              {project.pricingNotes && project.pricingNotes.length > 0 && (
+                <div className="p-4 sm:p-5 rounded-xl bg-neutral-50 border border-neutral-200/90 space-y-3">
+                  <div className="text-xs font-bold uppercase tracking-wider text-neutral-700">
+                    Pricing Breakdown, EOI Terms & Additional Charges
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {project.pricingNotes.map((note, idx) => (
+                      <div
+                        key={idx}
+                        className="p-3 rounded-lg bg-white border border-neutral-200/80 text-xs"
+                      >
+                        <div className="text-[10px] font-bold uppercase tracking-wider text-neutral-500">
+                          {note.label}
+                        </div>
+                        <div className="font-semibold text-neutral-900 mt-0.5">
+                          {note.value}
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               )}
@@ -442,39 +435,6 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
                         <span>{doc.label}</span>
                         <ExternalLink className="w-3 h-3 text-neutral-300" />
                       </a>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Floor Plan Diagrams / Layout Views */}
-              {project.planDiagrams && project.planDiagrams.length > 0 && (
-                <div className="pt-2 border-t border-neutral-100">
-                  <div className="flex items-center justify-between mb-3">
-                    <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-neutral-800">
-                      <Eye className="w-4 h-4 text-amber-600" />
-                      <span>Floor Plan & Master Layout Diagrams</span>
-                    </div>
-                    <span className="text-[11px] text-neutral-400">Click to view in high resolution</span>
-                  </div>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                    {project.planDiagrams.map((diagramUrl, idx) => (
-                      <div
-                        key={idx}
-                        onClick={() => setSelectedPlanImage(diagramUrl)}
-                        className="group relative aspect-4/3 rounded-xl overflow-hidden border border-neutral-200 bg-neutral-50 cursor-pointer shadow-2xs hover:border-amber-400 hover:shadow-md transition-all"
-                      >
-                        <img
-                          src={diagramUrl}
-                          alt={`${project.name} Floor / Tower Plan ${idx + 1}`}
-                          referrerPolicy="no-referrer"
-                          className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-300"
-                        />
-                        <div className="absolute inset-0 bg-neutral-950/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1.5 text-white text-xs font-bold backdrop-blur-2xs">
-                          <Maximize2 className="w-4 h-4" />
-                          <span>View Plan</span>
-                        </div>
-                      </div>
                     ))}
                   </div>
                 </div>
@@ -559,7 +519,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
             </div>
           </div>
 
-          {/* Sticky Side Column: Quick Lead & Inspection Booking (4 cols) */}
+          {/* Sticky Side Column: WhatsApp Advisory Desk (4 cols) */}
           <div className="lg:col-span-4 sticky top-36 space-y-6">
             <div className="bg-neutral-950 text-white p-6 sm:p-8 rounded-2xl border border-neutral-800 shadow-xl space-y-5">
               <div>
@@ -567,111 +527,26 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
                   Direct Developer Access
                 </span>
                 <h3 className="font-display text-xl font-bold">
-                  Schedule Private Site Visit
+                  Chat With Our Property Advisor
                 </h3>
-                <p className="text-xs text-neutral-400 mt-1">
-                  Connect with the designated project specialist for {project.name}.
+                <p className="text-xs text-neutral-400 mt-1.5 leading-relaxed">
+                  Connect instantly on WhatsApp with the designated project specialist for {project.name} to receive brochures, floor plans, pricing sheets, and private site visit slots.
                 </p>
               </div>
 
-              {formSubmitted ? (
-                <div className="py-6 text-center space-y-3">
-                  <div className="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 flex items-center justify-center mx-auto">
-                    <CheckCircle2 className="w-7 h-7" />
-                  </div>
-                  <h4 className="font-display text-lg font-bold">Request Logged!</h4>
-                  <p className="text-xs text-neutral-300">
-                    Our team will contact you at <strong>{mobileNumber}</strong> shortly.
-                  </p>
-                  <a
-                    href={`https://wa.me/919603155571?text=${whatsappMessage}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-3 w-full py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-bold flex items-center justify-center gap-2"
-                  >
-                    <MessageSquare className="w-4 h-4" />
-                    <span>WhatsApp Direct</span>
-                  </a>
-                </div>
-              ) : (
-                <form onSubmit={handleQuickInquiry} className="space-y-3 text-xs">
-                  <div>
-                    <label className="block text-neutral-300 font-semibold mb-1">Full Name *</label>
-                    <input
-                      type="text"
-                      required
-                      value={fullName}
-                      onChange={(e) => setFullName(e.target.value)}
-                      placeholder="e.g. Rajesh Kumar"
-                      className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:border-amber-500"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-neutral-300 font-semibold mb-1">Mobile Number *</label>
-                    <input
-                      type="tel"
-                      required
-                      value={mobileNumber}
-                      onChange={(e) => setMobileNumber(e.target.value)}
-                      placeholder="+91 98765 43210"
-                      className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:border-amber-500"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-neutral-300 font-semibold mb-1">Email Address</label>
-                    <input
-                      type="email"
-                      value={emailAddress}
-                      onChange={(e) => setEmailAddress(e.target.value)}
-                      placeholder="rajesh@example.com"
-                      className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-700 text-white placeholder-neutral-500 focus:outline-none focus:border-amber-500"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-neutral-300 font-semibold mb-1">Enquiry Purpose</label>
-                    <select
-                      value={enquiryType}
-                      onChange={(e) => setEnquiryType(e.target.value as any)}
-                      className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-700 text-white"
-                    >
-                      <option value="Site Visit">Private Site Visit</option>
-                      <option value="Price Sheet">Price Breakdown Sheet</option>
-                      <option value="Brochure">Download Brochure</option>
-                    </select>
-                  </div>
-
-                  <button
-                    type="submit"
-                    className="w-full py-3 bg-amber-600 hover:bg-amber-500 text-white rounded-lg font-bold text-xs transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-md shadow-amber-600/20"
-                  >
-                    <Send className="w-3.5 h-3.5" />
-                    <span>Send Site Visit Request</span>
-                  </button>
-                </form>
-              )}
-
-              {/* Instant Call / WhatsApp Buttons */}
-              <div className="pt-4 border-t border-neutral-800 space-y-2">
-                <a
-                  href="tel:+919603155571"
-                  className="w-full py-2.5 px-3 rounded-lg bg-neutral-800 hover:bg-neutral-700 text-neutral-200 text-xs font-semibold flex items-center justify-center gap-2 transition-colors"
-                >
-                  <Phone className="w-4 h-4 text-amber-400" />
-                  <span>Call Advisor: +91 96031 55571</span>
-                </a>
-
+              <div className="space-y-3 pt-2">
                 <a
                   href={`https://wa.me/919603155571?text=${whatsappMessage}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full py-2.5 px-3 rounded-lg bg-emerald-600/90 hover:bg-emerald-600 text-white text-xs font-semibold flex items-center justify-center gap-2 transition-colors"
+                  className="w-full py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-bold flex items-center justify-center gap-2 transition-colors shadow-lg shadow-emerald-600/20"
                 >
                   <MessageSquare className="w-4 h-4" />
                   <span>Chat on WhatsApp</span>
                 </a>
+                <p className="text-[11px] text-neutral-500 text-center">
+                  Instant response · Direct developer pricing · Zero brokerage
+                </p>
               </div>
             </div>
           </div>
@@ -743,48 +618,6 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
           </div>
         </section>
       </div>
-
-      {/* Lightbox Modal for Floor Plans */}
-      {selectedPlanImage && (
-        <div
-          className="fixed inset-0 z-50 bg-black/80 backdrop-blur-xs flex items-center justify-center p-4"
-          onClick={() => setSelectedPlanImage(null)}
-        >
-          <div
-            className="relative max-w-4xl max-h-[90vh] bg-white rounded-2xl overflow-hidden shadow-2xl p-4 flex flex-col"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="flex items-center justify-between pb-3 border-b border-neutral-200">
-              <h3 className="font-display font-bold text-neutral-900 text-sm">
-                {project.name} — Floor / Master Plan Layout
-              </h3>
-              <button
-                onClick={() => setSelectedPlanImage(null)}
-                className="p-1 rounded-lg text-neutral-500 hover:text-neutral-900 hover:bg-neutral-100 transition-colors"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-            <div className="overflow-auto max-h-[75vh] py-2 flex items-center justify-center">
-              <img
-                src={selectedPlanImage}
-                alt={`${project.name} Floor Plan`}
-                referrerPolicy="no-referrer"
-                className="max-h-full max-w-full object-contain rounded-lg"
-              />
-            </div>
-            <div className="pt-3 border-t border-neutral-100 flex items-center justify-between text-xs text-neutral-500">
-              <span>Sourced from nxzdigital.com</span>
-              <button
-                onClick={() => openEnquiryModal(project)}
-                className="px-3 py-1.5 bg-neutral-900 hover:bg-neutral-800 text-white font-bold rounded-lg transition-colors cursor-pointer"
-              >
-                Request Detailed PDF
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

@@ -1,9 +1,9 @@
 import React from 'react';
-import { ArrowDown, MessageSquare, Calendar, Building2, MapPin, CheckCircle2 } from 'lucide-react';
+import { ArrowDown, MessageSquare, MapPin, CheckCircle2 } from 'lucide-react';
 import { useProperties } from '../context/PropertyContext';
 
 export const Hero: React.FC<{ onExploreClick: () => void }> = ({ onExploreClick }) => {
-  const { openEnquiryModal, properties } = useProperties();
+  const { properties } = useProperties();
 
   return (
     <section className="relative w-full bg-neutral-950 text-white overflow-hidden">
@@ -48,22 +48,14 @@ export const Hero: React.FC<{ onExploreClick: () => void }> = ({ onExploreClick 
               <ArrowDown className="w-4 h-4" />
             </button>
 
-            <button
-              onClick={() => openEnquiryModal()}
-              className="px-6 py-3.5 bg-white/10 hover:bg-white/20 text-white border border-white/20 text-sm font-semibold rounded-lg backdrop-blur-sm transition-colors flex items-center justify-center gap-2 cursor-pointer"
-            >
-              <Calendar className="w-4 h-4 text-amber-300" />
-              <span>Schedule Private Site Visit</span>
-            </button>
-
             <a
               href="https://wa.me/919603155571?text=Hello%2C%20I%20am%20looking%20for%20luxury%20properties%20in%20Hyderabad.%20Please%20share%20details."
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-3.5 bg-emerald-600/90 hover:bg-emerald-600 text-white text-sm font-semibold rounded-lg transition-colors flex items-center justify-center gap-2"
+              className="px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-bold rounded-lg transition-colors flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/20"
             >
               <MessageSquare className="w-4 h-4" />
-              <span>WhatsApp Advisory</span>
+              <span>Chat on WhatsApp</span>
             </a>
           </div>
 

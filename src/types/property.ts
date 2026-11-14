@@ -113,6 +113,7 @@ export interface Property {
   carpetAreaRange?: string;
   planDiagrams?: string[];
   driveDocuments?: { label: string; url: string }[];
+  pricingNotes?: { label: string; value: string }[];
   ctaLabel?: string;
   createdAt?: string;
   updatedAt?: string;
