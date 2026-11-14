@@ -144,7 +144,7 @@ const MainAppContent: React.FC = () => {
   // If viewing a single project page (e.g. /msn-neopolis, /godrej-epoque)
   if (activeProject) {
     return (
-      <div className="min-h-screen flex flex-col bg-neutral-50 text-neutral-900 pb-16 md:pb-0">
+      <div className="min-h-screen flex flex-col bg-neutral-50 text-neutral-900 pb-24 md:pb-0 overflow-x-clip">
         <Navbar onNavigateToHome={navigateToHome} isProjectPage={true} />
 
         <main className="flex-1">
@@ -156,15 +156,15 @@ const MainAppContent: React.FC = () => {
         </main>
 
         <Footer />
-        <CompareModal />
-        <MobileQuickBar />
+        <CompareModal onNavigateToProject={navigateToProject} />
+        <MobileQuickBar onNavigateToHome={navigateToHome} isProjectPage={true} />
       </div>
     );
   }
 
   // Otherwise, render full Hyderabad Real Estate homepage
   return (
-    <div className="min-h-screen flex flex-col bg-neutral-50 text-neutral-900 pb-16 md:pb-0">
+    <div className="min-h-screen flex flex-col bg-neutral-50 text-neutral-900 pb-24 md:pb-0 overflow-x-clip">
       {/* 3-Zone Top Bar Navigation */}
       <Navbar onNavigateToHome={navigateToHome} isProjectPage={false} />
 
@@ -247,10 +247,10 @@ const MainAppContent: React.FC = () => {
       <Footer />
 
       {/* Modals & Overlays */}
-      <CompareModal />
+      <CompareModal onNavigateToProject={navigateToProject} />
 
       {/* Mobile Sticky Quick Navigation */}
-      <MobileQuickBar />
+      <MobileQuickBar onNavigateToHome={navigateToHome} isProjectPage={false} />
     </div>
   );
 };

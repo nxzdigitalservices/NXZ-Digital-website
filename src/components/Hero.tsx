@@ -10,7 +10,7 @@ export const Hero: React.FC<{ onExploreClick: () => void }> = ({ onExploreClick 
       {/* Background Photography with High-Contrast Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_luxury_penthouse_1794462274287.jpg"
+          src="/assets/hero-hyderabad.jpg"
           alt="Luxury penthouse view over Hyderabad skyline"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000"
@@ -20,16 +20,16 @@ export const Hero: React.FC<{ onExploreClick: () => void }> = ({ onExploreClick 
         <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-transparent to-neutral-950/40" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 md:pt-28 md:pb-24">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-12 sm:pt-20 sm:pb-16 md:pt-28 md:pb-24">
         <div className="max-w-3xl">
           {/* Natural human editorial kicker */}
-          <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold tracking-wider uppercase text-amber-400 mb-4">
-            <MapPin className="w-4 h-4 text-amber-400" />
+          <div className="flex items-start sm:items-center gap-2 text-[11px] sm:text-sm font-semibold tracking-wider uppercase text-amber-400 mb-3 sm:mb-4">
+            <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5 sm:mt-0" />
             <span>HYDERABAD REAL ESTATE · EXCLUSIVE PORTFOLIO BY NXZ DIGITAL · TS RERA VERIFIED</span>
           </div>
 
           {/* Headline with text-wrap: balance */}
-          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.1] mb-6 text-balance">
+          <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.12] mb-5 sm:mb-6 text-balance">
             Hyderabad’s Premier Real Estate Portfolio
           </h1>
 

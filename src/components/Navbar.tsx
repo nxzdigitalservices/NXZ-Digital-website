@@ -37,26 +37,26 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateToHome, isProjectPage 
 
   return (
     <header className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur-md border-b border-neutral-200/80 shadow-xs">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         {/* Strict 3-Zone Top Bar Contract */}
-        <div className="flex items-center justify-between gap-8 h-20">
-          {/* Zone 1: Brand Wordmark (Single text element in display font) */}
+        <div className="flex items-center justify-between gap-2 sm:gap-4 lg:gap-8 h-16 sm:h-20">
+          {/* Zone 1: Brand Wordmark */}
           <a
             href="/"
             onClick={handleBrandClick}
-            className="flex items-center gap-3 group whitespace-nowrap shrink-0 text-decoration-none cursor-pointer"
+            className="flex items-center gap-2 sm:gap-3 group min-w-0 flex-1 lg:flex-initial text-decoration-none cursor-pointer"
             aria-label="Hyderabad Real Estate Home"
           >
             <img
               src="/assets/aistudio/NXZ_logo_main_text_25a21177.jpeg"
               alt="NXZ Digital Logo"
-              className="h-9 sm:h-10 w-auto object-contain rounded-md bg-white px-1.5 py-1 border border-neutral-200/80 shadow-2xs"
+              className="h-8 sm:h-10 w-auto object-contain rounded-md bg-white px-1 py-0.5 sm:px-1.5 sm:py-1 border border-neutral-200/80 shadow-2xs shrink-0"
             />
-            <div className="flex flex-col">
-              <span className="font-display font-extrabold text-base sm:text-lg tracking-tight text-neutral-900 group-hover:text-neutral-700 transition-colors leading-tight">
+            <div className="flex flex-col min-w-0">
+              <span className="font-display font-extrabold text-[13px] sm:text-base lg:text-lg tracking-tight text-neutral-900 group-hover:text-neutral-700 transition-colors leading-tight truncate">
                 HYDERABAD <span className="text-amber-600 font-semibold">REAL ESTATE</span>
               </span>
-              <span className="text-[10px] tracking-widest uppercase text-neutral-500 font-medium">
+              <span className="hidden sm:block text-[10px] tracking-widest uppercase text-neutral-500 font-medium truncate">
                 Premier Projects by NXZ Digital
               </span>
             </div>
@@ -85,7 +85,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateToHome, isProjectPage 
           </nav>
 
           {/* Zone 3: Primary Action & Quick Tools */}
-          <div className="flex items-center gap-3 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
             {comparisonList.length > 0 && (
               <button
                 onClick={() => setIsCompareModalOpen(true)}
@@ -104,19 +104,20 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateToHome, isProjectPage 
               href="https://wa.me/919603155571?text=Hi%2C%20I%20am%20interested%20in%20Hyderabad%20luxury%20real%20estate%20projects."
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg transition-colors shadow-sm whitespace-nowrap shrink-0"
+              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 sm:px-4 sm:py-2 text-[11px] sm:text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg transition-colors shadow-sm whitespace-nowrap shrink-0"
             >
-              <MessageSquare className="w-3.5 h-3.5" />
-              <span>Chat on WhatsApp</span>
+              <MessageSquare className="w-3.5 h-3.5 shrink-0" />
+              <span className="sm:hidden">WhatsApp</span>
+              <span className="hidden sm:inline">Chat on WhatsApp</span>
             </a>
 
             {/* Mobile Menu Toggle */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 rounded-lg text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 transition-colors"
+              className="lg:hidden p-1.5 sm:p-2 rounded-lg text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 transition-colors shrink-0"
               aria-label="Toggle navigation menu"
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? <X className="w-5 h-5 sm:w-6 sm:h-6" /> : <Menu className="w-5 h-5 sm:w-6 sm:h-6" />}
             </button>
           </div>
         </div>

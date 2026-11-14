@@ -63,7 +63,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
   return (
     <div className="w-full bg-neutral-50 text-neutral-900 min-h-screen">
       {/* Top Breadcrumb & Return Bar */}
-      <div className="bg-white border-b border-neutral-200 sticky top-20 z-30 shadow-xs">
+      <div className="bg-white border-b border-neutral-200 sticky top-16 sm:top-20 z-30 shadow-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-xs text-neutral-500 overflow-x-auto whitespace-nowrap">
             <button
@@ -126,7 +126,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
               )}
             </div>
 
-            <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-neutral-950 tracking-tight leading-tight">
+            <h1 className="font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-neutral-950 tracking-tight leading-tight">
               {project.name}
             </h1>
 
@@ -140,7 +140,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
             <span className="text-xs uppercase font-bold tracking-wider text-neutral-400 block">
               Pricing Starts From
             </span>
-            <div className="font-display text-3xl sm:text-4xl font-extrabold text-neutral-950 tabular-nums">
+            <div className="font-display text-2xl sm:text-4xl font-extrabold text-neutral-950 tabular-nums">
               {project.startingPrice}
             </div>
             <span className="text-xs text-neutral-500 font-medium">
@@ -337,8 +337,8 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
 
               {/* Floor Plan & Pricing Table */}
               {project.floorPlanRows && project.floorPlanRows.length > 0 ? (
-                <div className="border border-neutral-200 rounded-xl overflow-hidden shadow-2xs">
-                  <table className="w-full text-xs text-left">
+                <div className="border border-neutral-200 rounded-xl overflow-x-auto shadow-2xs">
+                  <table className="w-full min-w-[580px] text-xs text-left">
                     <thead className="bg-neutral-100 text-neutral-800 font-bold border-b border-neutral-200 uppercase tracking-wider text-[11px]">
                       <tr>
                         <th className="py-3 px-4">Configuration</th>

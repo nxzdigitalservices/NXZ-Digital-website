@@ -68,13 +68,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/11/Cascades-3-1024x576.png",
+    "image": "/projects/cascades/3.webp",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Cascades-3-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Cascades-5-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Cascades-1-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Cascades-2-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Cascades-4-1024x576.png"
+      "/projects/cascades/3.webp",
+      "/projects/cascades/1.webp",
+      "/projects/cascades/2.webp",
+      "/projects/cascades/4.webp",
+      "/projects/cascades/5.webp"
     ],
     "description": "Cascades is a distinctive upcoming biophilic residential development located in Sector 2 of Neopolis, Kokapet, Hyderabad. Designed to harmoniously blend nature with high-rise luxury, the project features stepped vertical green terraces, hanging botanical sky gardens, and cascading water courtyards that create a peaceful microclimate for residents.\n\nThe development offers spacious 3 and 4 BHK luxury residences ranging from 2,560 to 4,825 sq.ft. Each residence enjoys 11.5-foot ceiling clearances, grand entrance foyers, gourmet kitchens, and sweeping corner balconies with unobstructed views of the surrounding lake and skyline horizons.\n\nResidents benefit from an elevated multi-tier clubhouse, infinity lap pool with floating cabanas, co-working business lounges, and outdoor amphitheater. Located along the 45-meter wide boulevard with instant access to the Kokapet Trumpet Interchange, Cascades offers an outstanding pre-launch opportunity for discerning homebuyers.",
     "reraNumber": "P02400009538",
@@ -167,13 +167,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/11/Godrej-Epoque-4-1024x576.png",
+    "image": "/projects/godrej-epoque/4.webp",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Godrej-Epoque-4-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Godrej-Epoque-1-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Godrej-Epoque-2-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Godrej-Epoque-3-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Godrej-Epoque-5-1024x576.png"
+      "/projects/godrej-epoque/4.webp",
+      "/projects/godrej-epoque/1.webp",
+      "/projects/godrej-epoque/2.webp",
+      "/projects/godrej-epoque/3.webp",
+      "/projects/godrej-epoque/5.webp"
     ],
     "description": "Godrej Epoque is a prestigious 57-storey luxury landmark by Godrej Properties, dominating the vibrant skyline of Neopolis, Kokapet. Drawing inspiration from classic Art Deco geometric elegance, the development features striking vertical lines and grand colonnades, presenting 3 and 4 BHK palatial residences spanning from 2,790 to 3,764 sq.ft.\n\nA standout feature of this landmark is the high-altitude Sky Bridge connecting the towers, featuring exclusive resident lounges and stargazing platforms. The community includes a 100% vehicle-free landscaped podium with Miyawaki forest trails, a rooftop heated infinity pool overlooking the Financial District, and biometric smart access for every home.\n\nLocated just minutes from the Kokapet Trumpet Interchange, Godrej Epoque ensures effortless connectivity to major tech hubs and international schools. Registered under Telangana RERA (P02400006240), the project features flexible milestone payment options, representing an elite investment in Hyderabad’s premier skyscraper enclave.",
     "reraNumber": "P02400006240",
@@ -264,13 +264,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/11/Brigade-Barcelona-5-1024x576.png",
+    "image": "/projects/brigade-barcelona/5.webp",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Brigade-Barcelona-5-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Brigade-Barcelona-1-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Brigade-Barcelona-2-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Brigade-Barcelona-3-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/Brigade-Barcelona-4-1024x576.png"
+      "/projects/brigade-barcelona/5.webp",
+      "/projects/brigade-barcelona/1.webp",
+      "/projects/brigade-barcelona/2.webp",
+      "/projects/brigade-barcelona/3.webp",
+      "/projects/brigade-barcelona/4.webp"
     ],
     "description": "Brigade Barcelona is an architectural triumph by Brigade Group in Neopolis Phase III, Kokapet, Hyderabad. Seamlessly blending Spanish Mediterranean charm with modern high-rise engineering, this iconic 52-storey T-shaped mono-tower sits on a prime 4.04-acre parcel, housing 666 curated 3, 3.5, and 4 BHK luxury condominiums ranging from 2,790 to 3,764 sq.ft.\n\nResidences feature authentic Spanish design accents, including arched viewing balconies, terracotta highlights, acoustic glass facades, and 11.5-foot clear ceiling heights. Residents enjoy access to a massive 1,50,000 sq.ft. clubhouse featuring Catalan gardens, sky observation decks, Olympic-standard badminton arenas, screening theaters, and hydrotherapy wellness suites.\n\nStrategically situated near the ORR and Kokapet lakefront, Brigade Barcelona offers unparalleled luxury, convenience, and panoramic views of Hyderabad’s financial capital.",
     "reraNumber": "P02400008712",
@@ -355,13 +355,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/11/MSN-1-1024x576.png",
+    "image": "/projects/msn-neopolis/1.webp",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/11/MSN-1-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/MSN-2-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/MSN-3-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/MSN-4-1024x576.png",
-      "https://nxzdigital.com/wp-content/uploads/2026/11/MSN-5-1024x576.png"
+      "/projects/msn-neopolis/1.webp",
+      "/projects/msn-neopolis/2.webp",
+      "/projects/msn-neopolis/3.webp",
+      "/projects/msn-neopolis/4.webp",
+      "/projects/msn-neopolis/5.webp"
     ],
     "description": "MSN Neopolis is an upcoming landmark residential development by MSN Group, situated on a prime 7-acre parcel in Neopolis, Kokapet, Hyderabad. This monumental project features three soaring 56-storey towers—Tower A, Tower B, and Tower C—offering high-end 3 and 4 BHK luxury residences sized between 5,250 and 7,460 sq.ft.\n\nDesigned for elevated living, the project features 8 panoramic Sky Pavilions with sweeping 360-degree skyline views. Residences boast grand 11.4-foot ceiling heights in Tower A and 10.5-foot heights in Towers B and C. Premium finishes include imported engineered marble flooring, Delta CP fittings, and TOTO sanitaryware suites alongside an iconic 2,30,000 sq.ft. mega clubhouse.\n\nAttractive pre-launch base pricing starts from ₹10,499/sq.ft for Towers B & C and ₹10,699/sq.ft for Tower A. With a buyer-friendly 20:20:20:20:20 five-year instalment payment plan, this pre-launch offer is exclusively available to the first 200 bookings.",
     "reraNumber": "P02400009845",
@@ -453,13 +453,9 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Clairemont-1024x576.jpeg",
+    "image": "/projects/prestige-clairemont/1.jpg",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Clairemont-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Clairemont-2-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Clairemont-3-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Clairemont-4-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Clairemont-5-1024x576.jpeg"
+      "/projects/prestige-clairemont/1.jpg"
     ],
     "description": "Prestige Clairemont is a distinguished residential sanctuary situated across 7.56 acres in Neopolis, Kokapet, Hyderabad. Developed by Prestige Group, this high-rise community comprises 928 luxury apartments distributed across four grand towers.\n\nThe project offers versatile 3 BHK, Large 3 BHK, 3 BHK + Study, and 4 BHK + Maid's Room configurations, sized between 1,989 and 4,060 sq.ft., with carpet areas of 1,229 to 2,530 sq.ft. Built with contemporary architecture and expansive green landscapes, Prestige Clairemont seamlessly combines peaceful living with rapid connectivity to Hyderabad’s Financial District and Outer Ring Road.",
     "reraNumber": "P02400005677",
@@ -548,13 +544,9 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Vaishnaoi-Rainbow-Waters-3-1024x576.jpeg",
+    "image": "/projects/prestige-vaishnaoi-rainbow-waters/1.jpg",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Vaishnaoi-Rainbow-Waters-3-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Vaishnaoi-Rainbow-Waters-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Vaishnaoi-Rainbow-Waters-2-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Vaishnaoi-Rainbow-Waters-4-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Vaishnaoi-Rainbow-Waters-5-1024x576.jpeg"
+      "/projects/prestige-vaishnaoi-rainbow-waters/1.jpg"
     ],
     "description": "Spread across approximately 2.42 acres, Prestige Vaishnaoi Rainbow Waters is an exclusive single-tower residential marvel rising 36 floors with only 150 bespoke residences. Overlooking the serene waters of Raidurgam Lake in Gachibowli, this iconic development offers expansive 4 BHK simplexes and 5 BHK duplex sky villas sized from 4,955 to 8,001 sq.ft.\n\nEvery home features panoramic wrap-around viewing decks, 12-foot clear ceiling heights, and floor-to-ceiling acoustic glass curtains. Positioned in the heart of Gachibowli, Rainbow Waters places residents seconds from Mindspace, HITEC City, and premier fine-dining destinations.",
     "reraNumber": "P02400006240",
@@ -638,13 +630,9 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": false,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Spring-Heights-1024x576.jpeg",
+    "image": "/projects/prestige-spring-heights/1.jpg",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Spring-Heights-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Spring-Heights-2-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Spring-Heights-3-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Spring-Heights-4-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Spring-Heights-5-1024x576.jpeg"
+      "/projects/prestige-spring-heights/1.jpg"
     ],
     "description": "Prestige Spring Heights is a premium residential development by Prestige Group, located in Budwel, Rajendra Nagar, Hyderabad. Spread across approximately 10.6 acres, the project features four high-rise residential towers rising 34 storeys, offering 1,656 spacious 3 and 4 BHK apartments designed for modern family living.\n\nApartment sizes range from 1,571 to 3,233 sq.ft. (carpet areas 949.49 to 1,984.02 sq.ft.), with east, west, and north facing options. Residents enjoy breathtaking views of Himayat Sagar Lake, landscaped recreational expanses, and an exclusive sky lounge perched atop Tower 3.",
     "reraNumber": "P02400009416",
@@ -737,13 +725,9 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": false,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Golden-Grove%E2%80%8B-3-1024x576.jpeg",
+    "image": "/projects/prestige-golden-grove/1.jpg",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Golden-Grove%E2%80%8B-3-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Golden-Grove%E2%80%8B-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Golden-Grove%E2%80%8B-2-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Golden-Grove%E2%80%8B-4-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Prestige-Golden-Grove%E2%80%8B-5-1024x576.jpeg"
+      "/projects/prestige-golden-grove/1.jpg"
     ],
     "description": "Prestige Golden Grove is a premium residential apartment township by Prestige Group, located in the Tellapur–Velimela region of West Hyderabad. Spread across approximately 28.6 acres, the project is planned with 10 high-rise residential towers rising up to Podium + 52 floors, comprising 5,120 apartments.\n\nThe township offers diverse configurations from compact 2 BHK apartments (1,169 sq.ft.) to spacious 4 BHK residences with staff accommodation (3,013 sq.ft.). With sprawling lifestyle amenities, expansive green podiums, and seamless connectivity to the ORR, Golden Grove is one of West Hyderabad’s most significant upcoming residential developments.",
     "reraNumber": "P01100010708",
@@ -847,12 +831,9 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/10/The-Prestige-City-3-1024x576.jpeg",
+    "image": "/projects/the-prestige-city/1.jpg",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/10/The-Prestige-City-3-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/The-Presige-City-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/The-Presige-City-2-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/The-Prestige-City-4-1024x576.jpeg"
+      "/projects/the-prestige-city/1.jpg"
     ],
     "description": "Spread across approximately 64 acres for the overall integrated township, The Prestige City is one of Hyderabad’s largest self-contained communities. The project features 13 residential apartment towers rising up to 3 basements + ground + 41 floors with 4,647 apartments, alongside 119 luxury villas and high-street retail.\n\nApartment configurations include 2, 2.5, 3, 3.5, and 4 BHK options, spanning approximately 1,179 to 3,431 SFT. Overlooking 2,000 acres of green biological reserves and Mulagund Lake, The Prestige City combines unmatched township scale with rapid connectivity to Rajiv Gandhi International Airport and the Financial District.",
     "reraNumber": "P02400007209",
@@ -950,13 +931,9 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/10/Brigade-Gateway-Residences-4-1024x576.jpeg",
+    "image": "/projects/brigade-gateway-residences/1.jpg",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Brigade-Gateway-Residences-4-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Brigade-Gateway-Residences-5-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Brigade-Gateway-Residences-3-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Brigade-Gateway-Residences-2-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/Brigade-Gateway-Residences-1024x576.jpeg"
+      "/projects/brigade-gateway-residences/1.jpg"
     ],
     "description": "Brigade Gateway Residences is an elite residential development by Brigade Enterprises Ltd. (Brigade Group) in Neopolis, Kokapet, Hyderabad. Currently open for Expression of Interest (EOI), the project presents four primary luxury typologies: 3 BHK Lifestyle (3,067 – 3,078 sq.ft. SBA, ₹4.90 – ₹5.45 Cr), 3 BHK Luxe (3,354 sq.ft. SBA, ₹5.50 – ₹6.00 Cr), 4 BHK Luxe (4,123 – 4,175 sq.ft. SBA, ₹6.35 – ₹7.25 Cr), and 4 BHK Grand (4,953 – 4,980 sq.ft. SBA, ₹8.10 – ₹8.50 Cr), alongside palatial 5 BHK & 6 BHK sky duplexes up to 6,432 sq.ft.\n\nInaugural EOI price ranges are all-inclusive (excluding Registration & Stamp Duty charges). EOI booking requires ₹15 Lakhs + 10% Payment PDC for 3 BHK residences and ₹20 Lakhs + 10% Payment PDC for 4 BHK residences, with EOI benefits subject to 10% payment. With floor-to-ceiling glass facades, grand arrival rotundas, and elevated lifestyle podiums, Brigade Gateway Residences stands as an ultra-luxury landmark address.",
     "reraNumber": "P02400010198",
@@ -1072,13 +1049,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.18-PM-1024x576.jpeg",
+    "image": "/projects/sattva-lakeridge/1.webp",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.18-PM-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.17-PM-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.18-PM-1-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.18-PM-2-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.19-PM-1024x576.jpeg"
+      "/projects/sattva-lakeridge/1.webp",
+      "/projects/sattva-lakeridge/2.webp",
+      "/projects/sattva-lakeridge/3.webp",
+      "/projects/sattva-lakeridge/4.webp",
+      "/projects/sattva-lakeridge/5.webp"
     ],
     "description": "Spread across approximately 9.5 acres, Sattva Lake Ridge features 6 luxury towers rising up to G+37 floors, offering spacious 3, 3.5, 4, and 5 BHK residences. Designed around generous living spaces, floor-to-ceiling windows, double-glazed acoustic glass, and high ceilings, the project creates a refined living experience with abundant natural light and lake vistas.\n\nWith an expansive 65,000 sq.ft. clubhouse, lake-facing landscaped gardens, party lawn, and excellent connectivity to Hyderabad’s major IT and growth corridors, Sattva Lake Ridge brings together luxury, convenience, and contemporary lifestyle living.",
     "reraNumber": "P02400006230 / P02400006231",
@@ -1178,13 +1155,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "upcoming",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.17-PM-1024x576.jpeg",
+    "image": "/projects/sattva-lago-phase-2/1.webp",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.17-PM-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.19-PM-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.18-PM-2-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.18-PM-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-1.26.18-PM-1-1024x576.jpeg"
+      "/projects/sattva-lago-phase-2/1.webp",
+      "/projects/sattva-lago-phase-2/2.webp",
+      "/projects/sattva-lago-phase-2/3.webp",
+      "/projects/sattva-lago-phase-2/4.webp",
+      "/projects/sattva-lago-phase-2/5.webp"
     ],
     "description": "Sattva Lago – Phase 2 is a grand Pre-Launch luxury high-rise residential development by Sattva Group in Neopolis, Kokapet, Hyderabad. Spread across 10 Acres, the master-planned community features 5 iconic towers rising G+46 floors with a total of 1,261 residences—with Tower 3, Tower 4, and Tower 5 currently open for sale.\n\nOffering spacious 3 BHK, 3.5 BHK, and 4 BHK residences spanning 3,100 to 4,900 sq.ft. (plus private terraces), every home is thoughtfully crafted around expansive living rooms, family lounges, walk-in closets, utility spaces, and private terrace decks. Pre-launch base pricing stands at ₹11,300/sq.ft. for 3 BHK & 3.5 BHK residences and ₹11,600/sq.ft. for 4 BHK residences.",
     "reraNumber": "P02400010916",
@@ -1319,13 +1296,9 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-1-1024x576.jpeg",
+    "image": "/projects/godrej-regal-pavilion/1.jpg",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-1-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-5-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-4-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-3-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-2-1024x576.jpeg"
+      "/projects/godrej-regal-pavilion/1.jpg"
     ],
     "description": "Godrej Regal Pavilion is a premium residential development located at Rajendra Nagar, Hyderabad, positioned around an opulent regal living concept. The project features modern neoclassical architecture, curated landscaped spaces, and an expansive 75,000 sq.ft. palace-themed clubhouse, including an elevated terrace area.\n\nThe project offers versatile residential configurations across 4.36 acres, including 2 BHK Luxe, 3 BHK Premium, 3 BHK Luxe, 3.5 BHK, 4 BHK Premium, and 4 BHK Luxe layouts. Super built-up sizes span from 1,351.96 to 3,571.39 sq.ft. (carpet areas 864.67 to 2,210.71 sq.ft.). Connected directly to the Nehru Outer Ring Road and Rajiv Gandhi International Airport, Godrej Regal Pavilion represents a distinguished high-life address.",
     "reraNumber": "P02400009910",
@@ -1440,13 +1413,9 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-5-1024x576.jpeg",
+    "image": "/projects/godrej-brooklyn-avenue/1.jpg",
     "gallery": [
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-5-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-4-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-3-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-2-1024x576.jpeg",
-      "https://nxzdigital.com/wp-content/uploads/2026/09/Godrej-Brooklyn-Heights-project-image-1-1024x576.jpeg"
+      "/projects/godrej-brooklyn-avenue/1.jpg"
     ],
     "description": "Godrej Brooklyn Avenue is a premium residential development inspired by Brooklyn New York's iconic brownstone and loft architecture, situated across 4.36 acres in Hyderabad. At the heart of the community's lifestyle offering is 'The Milestones Club'—a grand 75,000 sq.ft. clubhouse designed with curated spaces for recreation, relaxation, work, wellness, and social gatherings.\n\nThe project features spacious 3 BHK + 3T and 4 BHK luxury residences sized between approximately 1,587.88 and 3,253.87 sq.ft. (carpet areas 1,010.89 to 2,101.97 sq.ft.). Positioned close to Kukatpally, JNTU, and KPHB Metro stations, residents enjoy swift 10–20 minute transit to HITEC City, Financial District, and premier lifestyle malls.",
     "reraNumber": "P02200010981",

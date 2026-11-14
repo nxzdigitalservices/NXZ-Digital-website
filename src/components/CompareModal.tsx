@@ -3,7 +3,11 @@ import { X, Check, Trash2, ExternalLink } from 'lucide-react';
 import { useProperties } from '../context/PropertyContext';
 import { Property } from '../types/property';
 
-export const CompareModal: React.FC = () => {
+interface CompareModalProps {
+  onNavigateToProject?: (slug: string) => void;
+}
+
+export const CompareModal: React.FC<CompareModalProps> = ({ onNavigateToProject }) => {
   const {
     comparisonList,
     toggleCompare,
@@ -19,7 +23,7 @@ export const CompareModal: React.FC = () => {
     <div className="fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-xs flex items-center justify-center p-2 sm:p-4">
       <div className="relative w-full max-w-5xl bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
         {/* Header */}
-        <div className="flex items-center justify-between px-6 py-4 border-b border-neutral-200 bg-neutral-50">
+        <div className="flex items-center justify-between gap-3 px-4 sm:px-6 py-4 border-b border-neutral-200 bg-neutral-50">
           <div>
             <h3 className="font-display text-lg font-bold text-neutral-900">
               Side-by-Side Property Comparison ({comparisonList.length}/3)
@@ -46,7 +50,7 @@ export const CompareModal: React.FC = () => {
         </div>
 
         {/* Comparison Table */}
-        <div className="overflow-y-auto flex-1 p-6">
+        <div className="overflow-y-auto flex-1 p-3 sm:p-6">
           <div className="overflow-x-auto">
             <table className="w-full text-xs text-left border-collapse">
               <thead>
@@ -158,9 +162,13 @@ export const CompareModal: React.FC = () => {
                       <button
                         onClick={() => {
                           setIsCompareModalOpen(false);
-                          setSelectedProperty(p);
+                          if (onNavigateToProject) {
+                            onNavigateToProject(p.slug);
+                          } else {
+                            setSelectedProperty(p);
+                          }
                         }}
-                        className="w-full py-2 px-3 bg-neutral-900 hover:bg-neutral-800 text-white font-bold rounded-lg transition-colors flex items-center justify-center gap-1.5"
+                        className="w-full py-2 px-3 bg-neutral-900 hover:bg-neutral-800 text-white font-bold rounded-lg transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
                       >
                         <span>View Project</span>
                         <ExternalLink className="w-3.5 h-3.5" />

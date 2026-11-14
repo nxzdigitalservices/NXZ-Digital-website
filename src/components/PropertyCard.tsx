@@ -152,17 +152,17 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({ property, onViewDeta
         </div>
 
         {/* Pricing & CTA Section */}
-        <div className="mt-auto pt-1 flex items-end justify-between gap-3">
-          <div>
+        <div className="mt-auto pt-1 flex items-end justify-between gap-2">
+          <div className="min-w-0">
             <div className="text-[10px] uppercase tracking-wider text-neutral-400 font-semibold">
               Starting From
             </div>
-            <div className="font-display text-xl font-extrabold text-neutral-950 tabular-nums">
+            <div className="font-display text-lg sm:text-xl font-extrabold text-neutral-950 tabular-nums leading-tight">
               {property.startingPrice}
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
             {/* WhatsApp Quick Link */}
             <a
               href={`https://wa.me/919603155571?text=${whatsappMessage}`}
