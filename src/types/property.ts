@@ -14,7 +14,8 @@ export type HyderabadLocation =
   | 'Shamshabad & Maheshwaram'
   | 'Adibatla'
   | 'Uppal'
-  | 'Ghatkesar & Pocharam';
+  | 'Ghatkesar & Pocharam'
+  | 'RTC X Roads & Central Hyderabad';
 
 export interface KeySpec {
   label: string;

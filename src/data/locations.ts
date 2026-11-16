@@ -119,4 +119,13 @@ export const HYDERABAD_LOCATIONS: LocationInfo[] = [
     keyHighlights: ['Infosys 450-acre Pocharam campus', 'Raheja Mindspace IT Park', 'AIIMS Bibinagar proximity', 'Affordable residential and HMDA villa plots'],
     growthScore: 'Emerging IT Hub',
   },
+  {
+    id: 'RTC X Roads & Central Hyderabad',
+    name: 'RTC X Roads & Central Hyderabad',
+    tagline: 'Established city-centre residential hub with metro access and Hussain Sagar vistas',
+    distanceToFinancialDistrict: '25 - 30 Mins',
+    distanceToAirport: '40 Mins',
+    keyHighlights: ['RTC X Roads Metro Station access', 'Close to Kacheguda Railway Station & MGBS', 'Hussain Sagar & Tank Bund proximity', 'Well-established schools, hospitals, and shopping'],
+    growthScore: 'Prime City-Centre Address',
+  },
 ];

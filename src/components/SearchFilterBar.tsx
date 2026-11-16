@@ -130,7 +130,7 @@ export const SearchFilterBar: React.FC<SearchFilterBarProps> = ({
                 onChange={(e) => setFilter((prev) => ({ ...prev, location: e.target.value }))}
                 className="w-full pl-9 pr-8 py-2 text-xs font-medium rounded-lg border border-neutral-200 bg-white hover:border-neutral-300 focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-600 appearance-none transition-colors"
               >
-                <option value="all">All Locations (12 Corridors)</option>
+                <option value="all">All Locations ({HYDERABAD_LOCATIONS.length} Corridors)</option>
                 {HYDERABAD_LOCATIONS.map((loc) => (
                   <option key={loc.id} value={loc.id}>
                     {loc.name}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowDown, MessageSquare, MapPin, CheckCircle2 } from 'lucide-react';
 import { useProperties } from '../context/PropertyContext';
+import { HYDERABAD_LOCATIONS } from '../data/locations';
 
 export const Hero: React.FC<{ onExploreClick: () => void }> = ({ onExploreClick }) => {
   const { properties } = useProperties();
@@ -105,10 +106,10 @@ export const Hero: React.FC<{ onExploreClick: () => void }> = ({ onExploreClick 
 
           <div>
             <div className="font-display text-2xl sm:text-3xl font-bold text-white tabular-nums">
-              12 Prime Corridors
+              {HYDERABAD_LOCATIONS.length} Prime Corridors
             </div>
             <div className="text-xs text-neutral-400 mt-1">
-              Neopolis, Kokapet, Tellapur & Airport
+              Neopolis, RTC X Roads, Kompally & Airport
             </div>
           </div>
         </div>

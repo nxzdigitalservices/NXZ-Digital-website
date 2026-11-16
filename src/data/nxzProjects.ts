@@ -1489,5 +1489,337 @@ export const NXZ_PROJECTS: NXZProject[] = [
         "url": "https://drive.google.com/file/d/1G9_ZpWdSnUoozwUycTlnCVNdRNpl82nZ/view?usp=drive_link"
       }
     ]
+  },
+  {
+    "id": "asbl-legacy",
+    "slug": "asbl-legacy",
+    "name": "ASBL Legacy",
+    "tagline": "Life, Fully Loaded | Luxury 3 & 4 BHK at RTC X Roads, Central Hyderabad",
+    "developerName": "ASBL",
+    "location": "RTC X Roads & Central Hyderabad",
+    "specificAddress": "RTC X Roads (Old/New Nallakunta), Central Hyderabad",
+    "propertyType": "Apartment",
+    "configurations": [
+      "3 BHK",
+      "4 BHK"
+    ],
+    "startingPrice": "₹1.79 Cr onwards*",
+    "priceNumeric": 179,
+    "avgPricePerSqFt": "₹9,099 – ₹9,599/sft (+ 5% GST)",
+    "areaRange": "1,970 – 3,015 sq.ft.",
+    "carpetAreaRange": "Varies by layout",
+    "statusBadge": "Launched",
+    "statusType": "ongoing",
+    "isDetailed": true,
+    "isFeatured": true,
+    "image": "/projects/asbl-legacy/1.jpg",
+    "gallery": [
+      "/projects/asbl-legacy/1.jpg"
+    ],
+    "description": "ASBL Legacy is a high-rise gated community at RTC X Roads, in the heart of Central Hyderabad, developed by ASBL. Spread across a 7.97-acre (~8-acre) site, the development features three soaring G+50 towers with luxury 3 and 4 BHK homes, more than 50 amenities, and an 86,000 sq.ft. indoor amenities clubhouse—making it the tallest gated development in the RTC X Roads area.\n\nEach home is planned for open views of the sky, greenery, and Hussain Sagar rather than neighbouring buildings, featuring large balconies, a private foyer with a dedicated lift per residence, and 100% Vaastu-compliant layouts. In a central neighbourhood dominated by standalone buildings, ASBL Legacy delivers rare resort-style gated community living with a 0.75-acre central park and an in-community temple without leaving the city's best-connected address.",
+    "reraNumber": "",
+    "projectHighlights": [
+      "3 towers | G+50 floors across 7.97 acres (~8 acres)",
+      "Tallest gated community in Central Hyderabad with 73.25% open space",
+      "Open views of Hussain Sagar & 0.75-acre central park courtyard",
+      "86,000 sq.ft. of indoor amenities + one of the largest swimming pools and gyms",
+      "Private foyer and one dedicated lift per residence · 100% Vaastu-compliant homes",
+      "Large balconies, temple inside community, no corner premium & No Pre-EMI offer (Save ₹20–25 lakh)",
+      "Approved banks: SBI, HDFC Bank, Axis Bank, Bank of Baroda, Union Bank & Bajaj Housing Finance"
+    ],
+    "locationHighlights": [
+      "Located on RTC X Roads (Old/New Nallakunta), one of Hyderabad's best-connected central hubs",
+      "~2 minutes from RTC X Roads Metro Station and ~1 km from Odeon Mall",
+      "~8 minutes from Kacheguda Railway Station and ~15 minutes from MGBS Bus Station",
+      "~4 km from Hussain Sagar / Tank Bund with quick links to Secunderabad, Himayatnagar, Abids & Koti",
+      "Established city-centre neighbourhood with schools, hospitals, shopping & cinema already in place"
+    ],
+    "nearbyLocations": [
+      "RTC X Roads Metro Station: ~2 Mins",
+      "Odeon Mall: ~1 km",
+      "Kacheguda Railway Station: ~8 Mins",
+      "MGBS Bus Station: ~15 Mins",
+      "Hussain Sagar / Tank Bund: ~4 km",
+      "Narayanguda, Himayatnagar, Chikkadpally, Secunderabad, Abids, Koti & Ameerpet"
+    ],
+    "locationFeatures": [
+      "Prime Central Address at RTC X Roads — right in the city centre",
+      "Metro at your doorstep (~2 mins) with nearby Kacheguda Rail & MGBS links",
+      "Elevated Hussain Sagar lake vistas from the G+50 towers",
+      "Rare full-scale gated high-rise in a standalone-building neighbourhood supporting strong long-term value"
+    ],
+    "amenities": [
+      "86,000 Sq.Ft. Indoor Amenities & Grand Clubhouse",
+      "Large Swimming Pool",
+      "Large Gym & Fitness Centre",
+      "0.75-Acre Central Park",
+      "Indoor & Outdoor Play Zones for Kids",
+      "Basketball, Pickleball & Futsal Courts",
+      "Temple Inside the Community",
+      "Private Foyer & Dedicated Lift per Residence",
+      "Gated Secure Community with Managed Living"
+    ],
+    "floorPlanRows": [
+      {
+        "configuration": "Premium 3 BHK",
+        "size": "1,970 / 2,085 / 2,115 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "₹9,099/sft (₹1.79 Cr – ₹1.92 Cr approx.*)"
+      },
+      {
+        "configuration": "Luxury 4 BHK",
+        "size": "2,535 / 2,540 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "₹9,099/sft (₹2.31 Cr approx.*)"
+      },
+      {
+        "configuration": "Luxury 4 BHK (Marble Flooring)",
+        "size": "3,015 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "₹9,599/sft (₹2.89 Cr approx.*)"
+      }
+    ],
+    "pricingNotes": [
+      {
+        "label": "Pricing Basis",
+        "value": "Basic price + 5% GST. Approx. basic cost = size × basic price (excl. GST & other charges)"
+      },
+      {
+        "label": "Floor Rise Charges",
+        "value": "₹15/sft per floor (6th–35th floor) | ₹500/sft (36th–50th floor)"
+      },
+      {
+        "label": "Facing & Corner Policy",
+        "value": "East-facing premium: ₹100/sft | No corner premium"
+      },
+      {
+        "label": "Infra & Clubhouse",
+        "value": "Infrastructure: ₹250/sft | Amenities & Clubhouse: ₹250/sft"
+      },
+      {
+        "label": "Car Parking Charges",
+        "value": "3 BHK: ₹6L (2 back-to-back) | 4 BHK (2535/2540): ₹6L back-to-back or ₹7L independent | 4 BHK (3015): ₹10.5L (3 spaces)"
+      },
+      {
+        "label": "Maintenance & Corpus",
+        "value": "Maintenance: ₹130/sft for first 2 years (+18% GST) | Corpus: ₹80/sft | Stamp duty & registration extra"
+      },
+      {
+        "label": "Launch Offer",
+        "value": "Save ₹20–25 Lakh with the No Pre-EMI offer"
+      },
+      {
+        "label": "Approved Banks",
+        "value": "SBI, HDFC Bank, Axis Bank, Bank of Baroda, Union Bank, Bajaj Housing Finance"
+      }
+    ],
+    "planDiagrams": [],
+    "driveDocuments": []
+  },
+  {
+    "id": "casagrand-evon",
+    "slug": "casagrand-evon",
+    "name": "Casagrand Evon",
+    "tagline": "Exclusive 3 & 4 BHK Gated Community in Kompally, North Hyderabad",
+    "developerName": "Casagrand",
+    "location": "Kompally",
+    "specificAddress": "Behind Cine Planet, Kompally, North Hyderabad",
+    "propertyType": "Apartment",
+    "configurations": [
+      "3 BHK",
+      "4 BHK"
+    ],
+    "startingPrice": "Price on Request",
+    "priceNumeric": 150,
+    "avgPricePerSqFt": "Indicative ~₹1.5 Cr – ₹2.4 Cr*",
+    "areaRange": "1,927 – 2,852 sq.ft.",
+    "carpetAreaRange": "Varies by layout",
+    "statusBadge": "Under Construction",
+    "statusType": "ongoing",
+    "isDetailed": true,
+    "isFeatured": true,
+    "image": "/projects/casagrand-evon/1.jpg",
+    "gallery": [
+      "/projects/casagrand-evon/1.jpg"
+    ],
+    "description": "Casagrand Evon is a premium gated community in Kompally, North Hyderabad, situated directly behind Cine Planet. Spread across 6.78 acres, the development comprises 579 exclusive 3 and 4 BHK homes spanning 1,927 to 2,852 sq.ft. across 2B + G + 11 floor towers.\n\nFeaturing 4.7 acres of open space—including 2 acres of greenery anchored by a Japanese-themed water fountain—the community offers a vehicle-free podium for safe walking for children and senior citizens. Built using Mivan construction technology for faster handover (~30 months), the 100% Vaastu-compliant homes eliminate wasted space and pair large French windows for ~3× ventilation with full-height glass balcony railings.",
+    "reraNumber": "P02200009350",
+    "projectHighlights": [
+      "6.78 acres | 579 exclusive units | 2B + G + 11 floors",
+      "Exclusive 3 BHK and 4 BHK residences from 1,927 to 2,852 sq.ft.",
+      "100+ modern amenities and a 35,000 sq.ft. grand clubhouse with rooftop swimming pool",
+      "4.7 acres of open space including 2 acres of greenery & Japanese-themed water fountain",
+      "Vehicle-free landscaped podium · 100% Vaastu-compliant zero-waste layouts",
+      "Large French windows (~3× ventilation), full-height glass balcony railings & Mivan construction (~30-month handover)"
+    ],
+    "locationHighlights": [
+      "Located in Kompally, North Hyderabad, right behind Cine Planet",
+      "Close to NH44 (Hyderabad–Nagpur Highway) with convenient Outer Ring Road (ORR) access",
+      "Established residential corridor with schools, hospitals, and retail nearby",
+      "Quieter and greener environment than central Hyderabad with steady growth"
+    ],
+    "nearbyLocations": [
+      "Cine Planet Kompally: Right Next Door",
+      "NH44 / Kompally Main Road",
+      "Outer Ring Road (Medchal / Kompally Access)",
+      "Suchitra Circle, Secunderabad & Medchal"
+    ],
+    "locationFeatures": [
+      "Kompally — one of North Hyderabad's fastest-developing residential corridors",
+      "Smooth NH44 and ORR connectivity to Secunderabad and key city hubs",
+      "Landmark address directly behind Cine Planet Kompally",
+      "Greener, calmer surroundings with everyday schools, hospitals & shopping already in place"
+    ],
+    "amenities": [
+      "35,000 Sq.Ft. Grand Clubhouse",
+      "Rooftop Swimming Pool",
+      "100+ Modern Amenities",
+      "2 Acres Landscaped Green Space",
+      "Japanese-Themed Water Fountain",
+      "Vehicle-Free Landscaped Walking Podium"
+    ],
+    "floorPlanRows": [
+      {
+        "configuration": "3 BHK",
+        "size": "Starts from 1,927 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "Price on Request (Indicative ~₹1.5 Cr+)"
+      },
+      {
+        "configuration": "4 BHK",
+        "size": "Up to 2,852 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "Price on Request (Indicative up to ₹2.4 Cr)"
+      }
+    ],
+    "pricingNotes": [
+      {
+        "label": "Indicative Reference Range",
+        "value": "₹1.5 Cr – ₹2.4 Cr approx. (unverified listing reference; contact WhatsApp for official price sheet)"
+      },
+      {
+        "label": "Rate / SFT & Additional Charges",
+        "value": "Official price per sq.ft., floor rise, facing, and parking charges available on request"
+      },
+      {
+        "label": "Construction & Handover",
+        "value": "Mivan construction technology · Estimated ~30 months handover"
+      },
+      {
+        "label": "TG RERA Number",
+        "value": "P02200009350 (Verify directly on TG RERA portal)"
+      }
+    ],
+    "planDiagrams": [],
+    "driveDocuments": []
+  },
+  {
+    "id": "radhey-skyverse",
+    "slug": "radhey-skyverse",
+    "name": "Radhey Skyverse",
+    "tagline": "Life Above Everything | Exclusive 3 BHK Gold Class Living at Osman Nagar, Tellapur",
+    "developerName": "Radhey Group",
+    "location": "Narsingi & Tellapur",
+    "specificAddress": "Osman Nagar, Tellapur, West Hyderabad",
+    "propertyType": "Apartment",
+    "configurations": [
+      "3 BHK"
+    ],
+    "startingPrice": "Price on Request",
+    "priceNumeric": 180,
+    "avgPricePerSqFt": "Price on Request",
+    "areaRange": "1,758 – 3,060 sq.ft.",
+    "carpetAreaRange": "Varies by facing & layout",
+    "statusBadge": "Under Construction",
+    "statusType": "ongoing",
+    "isDetailed": true,
+    "isFeatured": true,
+    "image": "/projects/radhey-skyverse/1.jpg",
+    "gallery": [
+      "/projects/radhey-skyverse/1.jpg"
+    ],
+    "description": "Radhey Skyverse by Radhey Group is conceived as Hyderabad's first Gold Class living community, featuring 24x7 active life spaces at Osman Nagar, Tellapur in West Hyderabad. Planned across 8 acres, the landmark development comprises three 47-floor towers—Nebula, Zenith, and Aurora—offering exclusively 3 BHK residences ranging from 1,758 to 3,060 sq.ft. across East, West, and North facings.\n\nDesigned around a Bali-inspired, resort-style lifestyle, Skyverse devotes an entire double-height stilt level to amenities, tops all three towers with uniquely themed rooftop zones (including a rooftop swimming pool, bar, and sundowner deck), and integrates a grand G+5 clubhouse with swimming pools and water features. With ~70% open green space, HMDA building permission (009683/HMDA/02850/SWBP/SKP2/2025), and possession targeted for December 2030, residents enjoy uninterrupted high-rise views close to leading international schools, Kokapet, and the Financial District IT hubs.",
+    "reraNumber": "P01100011166 | P01100011167 | P01100011168",
+    "projectHighlights": [
+      "8 acres | 3 iconic towers (Nebula, Zenith & Aurora) | 47 floors",
+      "Exclusively 3 BHK residences from 1,758 to 3,060 sq.ft. with East, West & North facings",
+      "Hyderabad's first Gold Class living community with 24x7 amenities & Bali-inspired resort lifestyle",
+      "Double-height stilt level amenities + G+5 Skyverse clubhouse with swimming pool, pool deck & water features",
+      "Themed rooftops on all 3 towers (rooftop swimming pool, rooftop bar & sundowner deck) & ~70% open green space",
+      "HMDA Building Permission: 009683/HMDA/02850/SWBP/SKP2/2025 · Possession: December 2030",
+      "TS RERA Registered: P01100011166 | P01100011167 | P01100011168"
+    ],
+    "locationHighlights": [
+      "Osman Nagar, Tellapur in West Hyderabad's high-growth residential corridor",
+      "10 mins to leading international schools & Capgemini Kokapet",
+      "15 mins to Neopolis Kokapet IT SEZ & GAR Infobahn IT SEZ",
+      "20 mins to Google Campus (Financial District) & Wipro Circle",
+      "25 mins to Lingampally MMTS station · 40 mins to Rajiv Gandhi International Airport"
+    ],
+    "nearbyLocations": [
+      "Within 10 Min: Birla Open Minds, Manthan, Delhi Public School, The Gaudium, Meru, Samashti, Glendale, Green Gables & Capgemini Kokapet",
+      "Within 15 Min: Neopolis Kokapet IT SEZ, GAR Infobahn IT SEZ, Citizens Hospital, Continental Hospital, The Fisherman's Wharf, Sky Zone & ORO Sports Village",
+      "Within 20 Min: Google Campus (Financial District), Wipro Circle, ICFAI Business School, Ocean Park & Emaar Boulder Hills Golf",
+      "Within 25 Min: Indian School of Business (ISB), Amazon Development Center, WaveRock SEZ, Infosys, Lingampally MMTS & AIG Hospital",
+      "Within 40 Min: Rajiv Gandhi International Airport, DLF Cyber City, Care Hospital, KIMS Hospitals, Inorbit Mall & Sarath City Capital Mall"
+    ],
+    "locationFeatures": [
+      "8+ top international schools within 10 minutes — ideal for families",
+      "Close to Kokapet, Neopolis, Financial District & Gachibowli IT hubs (10–25 mins)",
+      "Citizens & Continental Hospitals within 15 mins; AIG Hospital within 25 mins",
+      "Nearby leisure at Emaar Boulder Hills Golf, ORO Sports Village, Ocean Park & Fisherman's Wharf",
+      "Quick ORR access (25 mins to Lingampally MMTS, 40 mins to Airport) in Tellapur–Osman Nagar corridor"
+    ],
+    "amenities": [
+      "G+5 Skyverse Clubhouse (Swimming Pool, Pool Deck & Water Features)",
+      "All-Tower Rooftops: Rooftop Swimming Pool, Rooftop Bar & Sundowner Deck",
+      "Nebula Rooftop: Reading, Power Nap, Therapeutic, Edible & Co-Working Gardens + Lunch Pathway",
+      "Zenith Rooftop: Meditation & Yoga Garden, Morning Tea Garden, Reflexology Path, Light Exercise & Games",
+      "Aurora Rooftop: BBQ & Dining Area, Star-Viewing Garden, Outdoor Games, Cinema Garden & Yoga Gardens",
+      "MOVE Zone: Outdoor Gym, Jogging Track, Cycling Lane, Mini Golf, Sports Courts & Bouldering Wall",
+      "RESET Zone: Yoga Deck, Therapeutic Gardens, Reading Cocoons, Water Features & Sensory Zones",
+      "CONNECT Zone: Chai Bars, Pool Deck, Outdoor Deck, Lawn Area, Swimming Pool & Pet Park",
+      "Double-Height Stilt Amenities Level & ~70% Open Green Lawns"
+    ],
+    "floorPlanRows": [
+      {
+        "configuration": "3 BHK (East Facing)",
+        "size": "1758, 1904, 1906, 1908, 2058, 2068, 2580, 2581, 3060 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "Price on Request"
+      },
+      {
+        "configuration": "3 BHK (West Facing)",
+        "size": "1758, 2058, 2581, 3060 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "Price on Request"
+      },
+      {
+        "configuration": "3 BHK (North Facing)",
+        "size": "1961, 2201 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "Price on Request"
+      }
+    ],
+    "pricingNotes": [
+      {
+        "label": "Price / SFT & Charges",
+        "value": "Official rate per sq.ft., floor rise, facing premium, and parking charges available on WhatsApp"
+      },
+      {
+        "label": "Towers & Possession",
+        "value": "3 Towers (Nebula, Zenith & Aurora) · 47 Floors · Possession: December 2030"
+      },
+      {
+        "label": "HMDA Building Permission",
+        "value": "009683/HMDA/02850/SWBP/SKP2/2025"
+      },
+      {
+        "label": "TS RERA Registrations",
+        "value": "P01100011166 | P01100011167 | P01100011168"
+      }
+    ],
+    "planDiagrams": [],
+    "driveDocuments": []
   }
 ];
