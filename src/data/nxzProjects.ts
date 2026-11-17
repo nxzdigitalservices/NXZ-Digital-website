@@ -154,16 +154,17 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "specificAddress": "Neopolis Sector, Kokapet, Hyderabad",
     "propertyType": "Apartment",
     "configurations": [
-      "3 BHK",
-      "3 BHK + Study",
-      "4 BHK"
+      "3 BHK Premium",
+      "3 BHK Luxe",
+      "3 BHK Grande",
+      "4 BHK Grande"
     ],
-    "startingPrice": "₹3.87 Cr onwards",
-    "priceNumeric": 387,
-    "avgPricePerSqFt": "Approx. ₹13,871/sq.ft.",
-    "areaRange": "2,790 – 3,764 sq.ft.",
-    "carpetAreaRange": "1,920 – 2,600 sq.ft.",
-    "statusBadge": "Under Construction",
+    "startingPrice": "₹2.60 Cr* onwards",
+    "priceNumeric": 260,
+    "avgPricePerSqFt": "EOI Offer: ₹2.60 Cr* – ₹4.35 Cr*",
+    "areaRange": "1,960 – 3,236 sq.ft.",
+    "carpetAreaRange": "Varies by layout",
+    "statusBadge": "EOI Open",
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
@@ -175,15 +176,15 @@ export const NXZ_PROJECTS: NXZProject[] = [
       "/projects/godrej-epoque/3.webp",
       "/projects/godrej-epoque/5.webp"
     ],
-    "description": "Godrej Epoque is a prestigious 57-storey luxury landmark by Godrej Properties, dominating the vibrant skyline of Neopolis, Kokapet. Drawing inspiration from classic Art Deco geometric elegance, the development features striking vertical lines and grand colonnades, presenting 3 and 4 BHK palatial residences spanning from 2,790 to 3,764 sq.ft.\n\nA standout feature of this landmark is the high-altitude Sky Bridge connecting the towers, featuring exclusive resident lounges and stargazing platforms. The community includes a 100% vehicle-free landscaped podium with Miyawaki forest trails, a rooftop heated infinity pool overlooking the Financial District, and biometric smart access for every home.\n\nLocated just minutes from the Kokapet Trumpet Interchange, Godrej Epoque ensures effortless connectivity to major tech hubs and international schools. Registered under Telangana RERA (P02400006240), the project features flexible milestone payment options, representing an elite investment in Hyderabad’s premier skyscraper enclave.",
-    "reraNumber": "P02400006240",
+    "description": "Godrej Epoque is a prestigious 57-storey luxury landmark by Godrej Properties, dominating the vibrant skyline of Neopolis, Kokapet. Drawing inspiration from classic Art Deco geometric elegance, the development features striking vertical lines and grand colonnades, presenting 3 BHK Premium (1,960 sq.ft.), 3 BHK Luxe (2,200 – 2,500 sq.ft.), 3 BHK Grande (2,700 sq.ft.), and 4 BHK Grande (3,150 – 3,236 sq.ft.) residences.\n\nA standout feature of this landmark is the high-altitude Sky Bridge connecting the towers, featuring exclusive resident lounges and stargazing platforms. The community includes a 100% vehicle-free landscaped podium with Miyawaki forest trails, a rooftop heated infinity pool overlooking the Financial District, and biometric smart access for every home.\n\nUnder the Exclusive Pricing Chart, EOI + 10% Spot Offers provide ₹15L to ₹30L total benefit—bringing effective New Prices to ₹2.60 Cr* (3 BHK Premium), ₹3.10 Cr* (3 BHK Luxe), ₹3.60 Cr* (3 BHK Grande), and ₹4.35 Cr* (4 BHK Grande), inclusive of HVAC, car park, clubhouse, infra & amenities cost (floor rise, PLC & taxes extra). Registered under Telangana RERA (P02400011291) with HMDA Permit No: 2439/HMDA/SWBP/2026.",
+    "reraNumber": "P02400011291",
     "projectHighlights": [
-      "Spread across approximately 5.03 acres with 2 residential towers of 58 floors each",
-      "Total 666 curated luxury residences with Art Deco architectural grandeur",
+      "Typologies from 1,960 to 3,236 sq.ft.: 3 BHK Premium, 3 BHK Luxe, 3 BHK Grande & 4 BHK Grande",
+      "Exclusive EOI + 10% Spot Offer Benefits of ₹15L to ₹30L — New Prices starting ₹2.60 Cr*",
+      "Includes HVAC, Car Park, Clubhouse, Infra & Amenities Cost (Floor Rise, PLC & Taxes extra)",
       "High-altitude Sky Bridge connecting towers with observation decks and resident lounges",
-      "25,000 sq.ft. designer clubhouse with temperature-controlled indoor pool",
-      "Vehicle-free landscaped podium with Miyawaki botanical forest trail",
-      "Telangana RERA registered (P02400006240) with planned launch September 2026"
+      "25,000 sq.ft. designer clubhouse, rooftop heated infinity pool & vehicle-free Miyawaki podium",
+      "TS RERA: P02400011291 | HMDA Permit No: 2439/HMDA/SWBP/2026"
     ],
     "locationHighlights": [
       "Prime location in Neopolis skyscraper cluster, Kokapet",
@@ -215,27 +216,57 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "floorPlanRows": [
       {
         "configuration": "3 BHK Premium",
-        "size": "2,790 sq.ft.",
-        "carpetArea": "1,920 sq.ft.",
-        "price": "₹3.87 Cr onwards"
+        "size": "1,960 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "₹2.60 Cr* (Price ₹2.75 Cr* – ₹15L Benefit)"
       },
       {
-        "configuration": "3 BHK + Study",
-        "size": "3,250 sq.ft.",
-        "carpetArea": "2,240 sq.ft.",
-        "price": "₹4.50 Cr onwards"
+        "configuration": "3 BHK Luxe",
+        "size": "2,200 – 2,500 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "₹3.10 Cr* (Price ₹3.30 Cr* – ₹20L Benefit)"
       },
       {
-        "configuration": "4 BHK Royal Suite",
-        "size": "3,764 sq.ft.",
-        "carpetArea": "2,600 sq.ft.",
-        "price": "₹5.22 Cr onwards"
+        "configuration": "3 BHK Grande",
+        "size": "2,700 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "₹3.60 Cr* (Price ₹3.85 Cr* – ₹25L Benefit)"
       },
       {
-        "configuration": "4 BHK Sky Villa",
-        "size": "4,800 sq.ft.",
-        "carpetArea": "3,310 sq.ft.",
-        "price": "₹6.65 Cr onwards"
+        "configuration": "4 BHK Grande",
+        "size": "3,150 – 3,236 sq.ft.",
+        "carpetArea": "Varies by layout",
+        "price": "₹4.35 Cr* (Price ₹4.65 Cr* – ₹30L Benefit)"
+      }
+    ],
+    "pricingNotes": [
+      {
+        "label": "3 BHK Premium (1,960 sq.ft.)",
+        "value": "Base ₹2.75 Cr* | EOI Offer: ₹8L + 10% Spot Offer: ₹7L (Total Benefit ₹15L) → New Price: ₹2.60 Cr*"
+      },
+      {
+        "label": "3 BHK Luxe (2,200 – 2,500 sq.ft.)",
+        "value": "Base ₹3.30 Cr* | EOI Offer: ₹12L + 10% Spot Offer: ₹8L (Total Benefit ₹20L) → New Price: ₹3.10 Cr*"
+      },
+      {
+        "label": "3 BHK Grande (2,700 sq.ft.)",
+        "value": "Base ₹3.85 Cr* | EOI Offer: ₹15L + 10% Spot Offer: ₹10L (Total Benefit ₹25L) → New Price: ₹3.60 Cr*"
+      },
+      {
+        "label": "4 BHK Grande (3,150 – 3,236 sq.ft.)",
+        "value": "Base ₹4.65 Cr* | EOI Offer: ₹20L + 10% Spot Offer: ₹10L (Total Benefit ₹30L) → New Price: ₹4.35 Cr*"
+      },
+      {
+        "label": "What Price Includes",
+        "value": "Includes HVAC, Car Park, Clubhouse, Infra & Amenities Cost"
+      },
+      {
+        "label": "Additional Charges",
+        "value": "Floor Rise, Premium Location Charges & Taxes are additional"
+      },
+      {
+        "label": "RERA & HMDA Permit",
+        "value": "RERA No: P02400011291 | Permit No: 2439/HMDA/SWBP/2026"
       }
     ],
     "planDiagrams": [],
