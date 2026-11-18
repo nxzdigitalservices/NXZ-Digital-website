@@ -484,9 +484,12 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "/projects/prestige-clairemont/1.jpg",
+    "image": "/projects/prestige-clairemont/1.webp",
     "gallery": [
-      "/projects/prestige-clairemont/1.jpg"
+      "/projects/prestige-clairemont/1.webp",
+      "/projects/prestige-clairemont/2.webp",
+      "/projects/prestige-clairemont/3.webp",
+      "/projects/prestige-clairemont/4.webp"
     ],
     "description": "Prestige Clairemont is a distinguished residential sanctuary situated across 7.56 acres in Neopolis, Kokapet, Hyderabad. Developed by Prestige Group, this high-rise community comprises 928 luxury apartments distributed across four grand towers.\n\nThe project offers versatile 3 BHK, Large 3 BHK, 3 BHK + Study, and 4 BHK + Maid's Room configurations, sized between 1,989 and 4,060 sq.ft., with carpet areas of 1,229 to 2,530 sq.ft. Built with contemporary architecture and expansive green landscapes, Prestige Clairemont seamlessly combines peaceful living with rapid connectivity to Hyderabad’s Financial District and Outer Ring Road.",
     "reraNumber": "P02400005677",
@@ -575,9 +578,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "/projects/prestige-vaishnaoi-rainbow-waters/1.jpg",
+    "image": "/projects/prestige-vaishnaoi-rainbow-waters/1.webp",
     "gallery": [
-      "/projects/prestige-vaishnaoi-rainbow-waters/1.jpg"
+      "/projects/prestige-vaishnaoi-rainbow-waters/1.webp",
+      "/projects/prestige-vaishnaoi-rainbow-waters/2.webp",
+      "/projects/prestige-vaishnaoi-rainbow-waters/3.webp",
+      "/projects/prestige-vaishnaoi-rainbow-waters/4.webp",
+      "/projects/prestige-vaishnaoi-rainbow-waters/5.webp"
     ],
     "description": "Spread across approximately 2.42 acres, Prestige Vaishnaoi Rainbow Waters is an exclusive single-tower residential marvel rising 36 floors with only 150 bespoke residences. Overlooking the serene waters of Raidurgam Lake in Gachibowli, this iconic development offers expansive 4 BHK simplexes and 5 BHK duplex sky villas sized from 4,955 to 8,001 sq.ft.\n\nEvery home features panoramic wrap-around viewing decks, 12-foot clear ceiling heights, and floor-to-ceiling acoustic glass curtains. Positioned in the heart of Gachibowli, Rainbow Waters places residents seconds from Mindspace, HITEC City, and premier fine-dining destinations.",
     "reraNumber": "P02400006240",
@@ -661,9 +668,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": false,
-    "image": "/projects/prestige-spring-heights/1.jpg",
+    "image": "/projects/prestige-spring-heights/1.webp",
     "gallery": [
-      "/projects/prestige-spring-heights/1.jpg"
+      "/projects/prestige-spring-heights/1.webp",
+      "/projects/prestige-spring-heights/2.webp",
+      "/projects/prestige-spring-heights/3.webp",
+      "/projects/prestige-spring-heights/4.webp",
+      "/projects/prestige-spring-heights/5.webp"
     ],
     "description": "Prestige Spring Heights is a premium residential development by Prestige Group, located in Budwel, Rajendra Nagar, Hyderabad. Spread across approximately 10.6 acres, the project features four high-rise residential towers rising 34 storeys, offering 1,656 spacious 3 and 4 BHK apartments designed for modern family living.\n\nApartment sizes range from 1,571 to 3,233 sq.ft. (carpet areas 949.49 to 1,984.02 sq.ft.), with east, west, and north facing options. Residents enjoy breathtaking views of Himayat Sagar Lake, landscaped recreational expanses, and an exclusive sky lounge perched atop Tower 3.",
     "reraNumber": "P02400009416",
@@ -756,9 +767,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": false,
-    "image": "/projects/prestige-golden-grove/1.jpg",
+    "image": "/projects/prestige-golden-grove/1.webp",
     "gallery": [
-      "/projects/prestige-golden-grove/1.jpg"
+      "/projects/prestige-golden-grove/1.webp",
+      "/projects/prestige-golden-grove/2.webp",
+      "/projects/prestige-golden-grove/3.webp",
+      "/projects/prestige-golden-grove/4.webp",
+      "/projects/prestige-golden-grove/5.webp"
     ],
     "description": "Prestige Golden Grove is a premium residential apartment township by Prestige Group, located in the Tellapur–Velimela region of West Hyderabad. Spread across approximately 28.6 acres, the project is planned with 10 high-rise residential towers rising up to Podium + 52 floors, comprising 5,120 apartments.\n\nThe township offers diverse configurations from compact 2 BHK apartments (1,169 sq.ft.) to spacious 4 BHK residences with staff accommodation (3,013 sq.ft.). With sprawling lifestyle amenities, expansive green podiums, and seamless connectivity to the ORR, Golden Grove is one of West Hyderabad’s most significant upcoming residential developments.",
     "reraNumber": "P01100010708",
@@ -862,9 +877,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "/projects/the-prestige-city/1.jpg",
+    "image": "/projects/the-prestige-city/1.webp",
     "gallery": [
-      "/projects/the-prestige-city/1.jpg"
+      "/projects/the-prestige-city/1.webp",
+      "/projects/the-prestige-city/2.webp",
+      "/projects/the-prestige-city/3.webp",
+      "/projects/the-prestige-city/4.webp",
+      "/projects/the-prestige-city/5.webp"
     ],
     "description": "Spread across approximately 64 acres for the overall integrated township, The Prestige City is one of Hyderabad’s largest self-contained communities. The project features 13 residential apartment towers rising up to 3 basements + ground + 41 floors with 4,647 apartments, alongside 119 luxury villas and high-street retail.\n\nApartment configurations include 2, 2.5, 3, 3.5, and 4 BHK options, spanning approximately 1,179 to 3,431 SFT. Overlooking 2,000 acres of green biological reserves and Mulagund Lake, The Prestige City combines unmatched township scale with rapid connectivity to Rajiv Gandhi International Airport and the Financial District.",
     "reraNumber": "P02400007209",
@@ -962,9 +981,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "/projects/brigade-gateway-residences/1.jpg",
+    "image": "/projects/brigade-gateway-residences/1.webp",
     "gallery": [
-      "/projects/brigade-gateway-residences/1.jpg"
+      "/projects/brigade-gateway-residences/1.webp",
+      "/projects/brigade-gateway-residences/2.webp",
+      "/projects/brigade-gateway-residences/3.webp",
+      "/projects/brigade-gateway-residences/4.webp",
+      "/projects/brigade-gateway-residences/5.webp"
     ],
     "description": "Brigade Gateway Residences is an elite residential development by Brigade Enterprises Ltd. (Brigade Group) in Neopolis, Kokapet, Hyderabad. Currently open for Expression of Interest (EOI), the project presents four primary luxury typologies: 3 BHK Lifestyle (3,067 – 3,078 sq.ft. SBA, ₹4.90 – ₹5.45 Cr), 3 BHK Luxe (3,354 sq.ft. SBA, ₹5.50 – ₹6.00 Cr), 4 BHK Luxe (4,123 – 4,175 sq.ft. SBA, ₹6.35 – ₹7.25 Cr), and 4 BHK Grand (4,953 – 4,980 sq.ft. SBA, ₹8.10 – ₹8.50 Cr), alongside palatial 5 BHK & 6 BHK sky duplexes up to 6,432 sq.ft.\n\nInaugural EOI price ranges are all-inclusive (excluding Registration & Stamp Duty charges). EOI booking requires ₹15 Lakhs + 10% Payment PDC for 3 BHK residences and ₹20 Lakhs + 10% Payment PDC for 4 BHK residences, with EOI benefits subject to 10% payment. With floor-to-ceiling glass facades, grand arrival rotundas, and elevated lifestyle podiums, Brigade Gateway Residences stands as an ultra-luxury landmark address.",
     "reraNumber": "P02400010198",
@@ -1327,9 +1350,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "/projects/godrej-regal-pavilion/1.jpg",
+    "image": "/projects/godrej-regal-pavilion/1.webp",
     "gallery": [
-      "/projects/godrej-regal-pavilion/1.jpg"
+      "/projects/godrej-regal-pavilion/1.webp",
+      "/projects/godrej-regal-pavilion/2.webp",
+      "/projects/godrej-regal-pavilion/3.webp",
+      "/projects/godrej-regal-pavilion/4.webp",
+      "/projects/godrej-regal-pavilion/5.webp"
     ],
     "description": "Godrej Regal Pavilion is a premium residential development located at Rajendra Nagar, Hyderabad, positioned around an opulent regal living concept. The project features modern neoclassical architecture, curated landscaped spaces, and an expansive 75,000 sq.ft. palace-themed clubhouse, including an elevated terrace area.\n\nThe project offers versatile residential configurations across 4.36 acres, including 2 BHK Luxe, 3 BHK Premium, 3 BHK Luxe, 3.5 BHK, 4 BHK Premium, and 4 BHK Luxe layouts. Super built-up sizes span from 1,351.96 to 3,571.39 sq.ft. (carpet areas 864.67 to 2,210.71 sq.ft.). Connected directly to the Nehru Outer Ring Road and Rajiv Gandhi International Airport, Godrej Regal Pavilion represents a distinguished high-life address.",
     "reraNumber": "P02400009910",
@@ -1444,9 +1471,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "/projects/godrej-brooklyn-avenue/1.jpg",
+    "image": "/projects/godrej-brooklyn-avenue/1.webp",
     "gallery": [
-      "/projects/godrej-brooklyn-avenue/1.jpg"
+      "/projects/godrej-brooklyn-avenue/1.webp",
+      "/projects/godrej-brooklyn-avenue/2.webp",
+      "/projects/godrej-brooklyn-avenue/3.webp",
+      "/projects/godrej-brooklyn-avenue/4.webp",
+      "/projects/godrej-brooklyn-avenue/5.webp"
     ],
     "description": "Godrej Brooklyn Avenue is a premium residential development inspired by Brooklyn New York's iconic brownstone and loft architecture, situated across 4.36 acres in Hyderabad. At the heart of the community's lifestyle offering is 'The Milestones Club'—a grand 75,000 sq.ft. clubhouse designed with curated spaces for recreation, relaxation, work, wellness, and social gatherings.\n\nThe project features spacious 3 BHK + 3T and 4 BHK luxury residences sized between approximately 1,587.88 and 3,253.87 sq.ft. (carpet areas 1,010.89 to 2,101.97 sq.ft.). Positioned close to Kukatpally, JNTU, and KPHB Metro stations, residents enjoy swift 10–20 minute transit to HITEC City, Financial District, and premier lifestyle malls.",
     "reraNumber": "P02200010981",
@@ -1543,9 +1574,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "/projects/asbl-legacy/1.jpg",
+    "image": "/projects/asbl-legacy/1.webp",
     "gallery": [
-      "/projects/asbl-legacy/1.jpg"
+      "/projects/asbl-legacy/1.webp",
+      "/projects/asbl-legacy/2.webp",
+      "/projects/asbl-legacy/3.webp",
+      "/projects/asbl-legacy/4.webp",
+      "/projects/asbl-legacy/5.webp"
     ],
     "description": "ASBL Legacy is a high-rise gated community at RTC X Roads, in the heart of Central Hyderabad, developed by ASBL. Spread across a 7.97-acre (~8-acre) site, the development features three soaring G+50 towers with luxury 3 and 4 BHK homes, more than 50 amenities, and an 86,000 sq.ft. indoor amenities clubhouse—making it the tallest gated development in the RTC X Roads area.\n\nEach home is planned for open views of the sky, greenery, and Hussain Sagar rather than neighbouring buildings, featuring large balconies, a private foyer with a dedicated lift per residence, and 100% Vaastu-compliant layouts. In a central neighbourhood dominated by standalone buildings, ASBL Legacy delivers rare resort-style gated community living with a 0.75-acre central park and an in-community temple without leaving the city's best-connected address.",
     "reraNumber": "",
@@ -1669,9 +1704,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "/projects/casagrand-evon/1.jpg",
+    "image": "/projects/casagrand-evon/1.webp",
     "gallery": [
-      "/projects/casagrand-evon/1.jpg"
+      "/projects/casagrand-evon/1.webp",
+      "/projects/casagrand-evon/2.webp",
+      "/projects/casagrand-evon/3.webp",
+      "/projects/casagrand-evon/4.webp",
+      "/projects/casagrand-evon/5.webp"
     ],
     "description": "Casagrand Evon is a premium gated community in Kompally, North Hyderabad, situated directly behind Cine Planet. Spread across 6.78 acres, the development comprises 579 exclusive 3 and 4 BHK homes spanning 1,927 to 2,852 sq.ft. across 2B + G + 11 floor towers.\n\nFeaturing 4.7 acres of open space—including 2 acres of greenery anchored by a Japanese-themed water fountain—the community offers a vehicle-free podium for safe walking for children and senior citizens. Built using Mivan construction technology for faster handover (~30 months), the 100% Vaastu-compliant homes eliminate wasted space and pair large French windows for ~3× ventilation with full-height glass balcony railings.",
     "reraNumber": "P02200009350",
@@ -1765,9 +1804,13 @@ export const NXZ_PROJECTS: NXZProject[] = [
     "statusType": "ongoing",
     "isDetailed": true,
     "isFeatured": true,
-    "image": "/projects/radhey-skyverse/1.jpg",
+    "image": "/projects/radhey-skyverse/1.webp",
     "gallery": [
-      "/projects/radhey-skyverse/1.jpg"
+      "/projects/radhey-skyverse/1.webp",
+      "/projects/radhey-skyverse/2.webp",
+      "/projects/radhey-skyverse/3.webp",
+      "/projects/radhey-skyverse/4.webp",
+      "/projects/radhey-skyverse/5.webp"
     ],
     "description": "Radhey Skyverse by Radhey Group is conceived as Hyderabad's first Gold Class living community, featuring 24x7 active life spaces at Osman Nagar, Tellapur in West Hyderabad. Planned across 8 acres, the landmark development comprises three 47-floor towers—Nebula, Zenith, and Aurora—offering exclusively 3 BHK residences ranging from 1,758 to 3,060 sq.ft. across East, West, and North facings.\n\nDesigned around a Bali-inspired, resort-style lifestyle, Skyverse devotes an entire double-height stilt level to amenities, tops all three towers with uniquely themed rooftop zones (including a rooftop swimming pool, bar, and sundowner deck), and integrates a grand G+5 clubhouse with swimming pools and water features. With ~70% open green space, HMDA building permission (009683/HMDA/02850/SWBP/SKP2/2025), and possession targeted for December 2030, residents enjoy uninterrupted high-rise views close to leading international schools, Kokapet, and the Financial District IT hubs.",
     "reraNumber": "P01100011166 | P01100011167 | P01100011168",
