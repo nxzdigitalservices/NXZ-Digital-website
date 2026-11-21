@@ -1895,5 +1895,128 @@ export const NXZ_PROJECTS: NXZProject[] = [
     ],
     "planDiagrams": [],
     "driveDocuments": []
+  },
+  {
+    "id": "dev-signature-one",
+    "slug": "dev-signature-one",
+    "name": "Dev Signature One",
+    "tagline": "Luxury 3 & 4 BHK Apartments at Gaganpahad, Rajendranagar, Hyderabad",
+    "developerName": "Dev Developers",
+    "location": "Shamshabad & Maheshwaram",
+    "specificAddress": "NH 44, Gaganpahad Village, Rajendranagar Mandal, Hyderabad",
+    "propertyType": "Apartment",
+    "configurations": [
+      "3 BHK",
+      "4 BHK"
+    ],
+    "startingPrice": "Price on Request",
+    "priceNumeric": 185,
+    "avgPricePerSqFt": "Price on Request",
+    "areaRange": "2,011 – 3,698 sq.ft.",
+    "carpetAreaRange": "Varies by layout",
+    "statusBadge": "Under Construction",
+    "statusType": "ongoing",
+    "isDetailed": true,
+    "isFeatured": true,
+    "image": "/projects/dev-signature-one/1.webp",
+    "gallery": [
+      "/projects/dev-signature-one/1.webp",
+      "/projects/dev-signature-one/2.webp",
+      "/projects/dev-signature-one/3.webp",
+      "/projects/dev-signature-one/4.webp",
+      "/projects/dev-signature-one/5.webp"
+    ],
+    "description": "Dev Signature One is a premium residential high-rise development by Dev Developers, spread across 3.39 acres on NH 44 at Gaganpahad Village, Rajendranagar Mandal, Hyderabad. Featuring two independent towers structured with 3 cellars + ground + 17 residential floors, the community is thoughtfully planned for an exclusive neighbourhood of approximately 300 families, offering spacious 3 BHK and 4 BHK apartments with East- and West-facing orientations.\n\nBlending contemporary architecture with landscaped outdoor spaces, Dev Signature One offers more than 1,00,000 sq.ft. of lifestyle amenities—highlighted by a six-level 35,000 sq.ft. luxury clubhouse, a 15,000 sq.ft. ground-floor lounge, and an expansive 50,000 sq.ft. terrace garden. The project carries TS RERA No. P02400007080 and GHMC Permit No. 3037/GHMC/CHR/2023-BP.",
+    "reraNumber": "P02400007080",
+    "projectHighlights": [
+      "3.39-acre gated high-rise community by Dev Developers with 2 independent towers (3 Cellars + G + 17 Floors)",
+      "Exclusive low-density planning for approximately 300 families across spacious 3 BHK & 4 BHK East/West-facing homes",
+      "Over 1,00,000 sq.ft. of lifestyle amenities anchored by a 35,000 sq.ft. six-level clubhouse",
+      "15,000 sq.ft. luxurious ground-floor lounge and 50,000 sq.ft. landscaped terrace garden",
+      "200-foot-wide NH 44 frontage with 3 dedicated entry/exit points & a dedicated school bus bay",
+      "Three basement parking levels with EV charging provisions",
+      "TS RERA: P02400007080 | GHMC Permit No: 3037/GHMC/CHR/2023-BP"
+    ],
+    "locationHighlights": [
+      "Located directly on NH 44 at Gaganpahad, near the Rajendranagar residential corridor",
+      "Approximately 8 minutes from the Outer Ring Road (ORR)",
+      "Approximately 10 minutes from Rajiv Gandhi International Airport (RGIA)",
+      "Approximately 20 minutes from Mehdipatnam via PVNR Expressway with convenient access to Banjara Hills",
+      "Seamless connectivity across Hyderabad's major road network, employment & education hubs"
+    ],
+    "nearbyLocations": [
+      "Outer Ring Road (ORR): ~8 Mins",
+      "Rajiv Gandhi International Airport (RGIA): ~10 Mins",
+      "Mehdipatnam (via PVNR Expressway): ~20 Mins",
+      "Banjara Hills (via Mehdipatnam): ~20 Mins"
+    ],
+    "locationFeatures": [
+      "Direct 200-foot NH 44 frontage with three entry/exit points",
+      "Fast access to ORR (~8 mins), Airport (~10 mins) & PVNR Expressway",
+      "Family-friendly planning with dedicated school bus bay and student drop-off zone",
+      "Vertical gardens, landscaped grounds & 50,000 sq.ft. terrace garden",
+      "Exclusive 2-tower community crafted for ~300 families"
+    ],
+    "amenities": [
+      "35,000 Sq.Ft. Six-Level Luxury Clubhouse",
+      "Rooftop Swimming Pool",
+      "Fully Equipped Gymnasium",
+      "Olympic-Class Badminton Court",
+      "Indoor Games & Entertainment Zone",
+      "Spa and Salon",
+      "Banquet Hall & Amphitheatre",
+      "50,000 Sq.Ft. Terrace Garden",
+      "15,000 Sq.Ft. Ground-Floor Lounge",
+      "Café & Indoor Dining",
+      "Home Theatre & Library",
+      "Jogging Track, Outdoor Gym & Yoga Lawn",
+      "8 Guest Room Suites, Supermarket, Pharmacy & Kids Play Areas"
+    ],
+    "floorPlanRows": [
+      {
+        "configuration": "3 BHK (Standard)",
+        "size": "2,011 sq.ft. (East / West)",
+        "carpetArea": "Varies by layout",
+        "price": "Price on Request"
+      },
+      {
+        "configuration": "3 BHK (Large)",
+        "size": "2,337 sq.ft. (East / West)",
+        "carpetArea": "Varies by layout",
+        "price": "Price on Request"
+      },
+      {
+        "configuration": "4 BHK (with Maid's Room)",
+        "size": "3,269 sq.ft. (East / West)",
+        "carpetArea": "Varies by layout",
+        "price": "Price on Request"
+      },
+      {
+        "configuration": "4 BHK Grand (Corner / Maid's Room)",
+        "size": "3,698 sq.ft. (East / West)",
+        "carpetArea": "Varies by layout",
+        "price": "Price on Request"
+      }
+    ],
+    "pricingNotes": [
+      {
+        "label": "Unit-Wise Pricing",
+        "value": "Contact developer desk on WhatsApp for unit-wise pricing and current tower availability"
+      },
+      {
+        "label": "4 BHK Special Features",
+        "value": "Dedicated maid's room, spacious living & dining areas, and premium corner apartment options"
+      },
+      {
+        "label": "Additional Layout Variants",
+        "value": "Other inventory variants across Towers 1 & 2 include 1,856; 1,875; 2,167; 2,190; 2,455; 2,470; 2,820; 2,839; 2,935 & 3,348 sq.ft. (Confirm applicable tower & unit on enquiry)"
+      },
+      {
+        "label": "RERA & GHMC Permit",
+        "value": "TS RERA: P02400007080 | GHMC Permit No: 3037/GHMC/CHR/2023-BP"
+      }
+    ],
+    "planDiagrams": [],
+    "driveDocuments": []
   }
 ];
